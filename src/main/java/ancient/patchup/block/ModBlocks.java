@@ -1,12 +1,10 @@
 package ancient.patchup.block;
 
 import ancient.patchup.PatchUp;
-import com.ninni.dye_depot.DyeDepot;
 import com.ninni.dye_depot.registry.DDBlocks;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -39,28 +37,29 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(DDBlocks.OLIVE_TERRACOTTA)));
 
     public static final Block FOREST_TERRACOTTA_TRIM = registerBlock("forest_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.FOREST_TERRACOTTA)));
 
     public static final Block VERDANT_TERRACOTTA_TRIM = registerBlock("verdant_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.VERDANT_TERRACOTTA)));
 
     public static final Block TEAL_TERRACOTTA_TRIM = registerBlock("teal_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.TEAL_TERRACOTTA)));
 
     public static final Block MINT_TERRACOTTA_TRIM = registerBlock("mint_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.MINT_TERRACOTTA)));
 
     public static final Block AQUA_TERRACOTTA_TRIM = registerBlock("aqua_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.AQUA_TERRACOTTA)));
 
     public static final Block SLATE_TERRACOTTA_TRIM = registerBlock("slate_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.SLATE_TERRACOTTA)));
 
     public static final Block NAVY_TERRACOTTA_TRIM = registerBlock("navy_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.NAVY_TERRACOTTA)));
 
     public static final Block INDIGO_TERRACOTTA_TRIM = registerBlock("indigo_terracotta_trim",
-            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_TERRACOTTA)));
+            new Block(FabricBlockSettings.copyOf(DDBlocks.INDIGO_TERRACOTTA)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -72,7 +71,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    public static void registerModBlocks() {
-        PatchUp.LOGGER.info("Registering ModBlocks for " + PatchUp.MOD_ID);
+    public static void registerModBLocks() {
+        PatchUp.LOGGER.info("Registering Slate for " + PatchUp.MOD_ID);
     }
 }
