@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "patch-up",
+	"id": "patchup",
 	"version": "1",
 	"name": "Patch Up",
 	"description": "Add missing colorful blocks to the game!",
