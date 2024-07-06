@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "ancient.patchup.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PatchUpMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "patch-up",
+	"version": "1",
+	"name": "Patch Up",
+	"description": "Add missing colorful blocks to the game!",
+	"authors": [
+		"K8bus",
+		"Pancake"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/patch-up/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ancient.patchup.PatchUp"
+		],
+		"fabric-datagen": [
+			"ancient.patchup.PatchUpDataGenerator"
+		]
+	},
+	"mixins": [
+		"patch-up.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
