@@ -15,11 +15,11 @@ import java.util.function.Supplier;
 
 public class Lamp {
 
-    public static final Supplier<Block> MAROON_LAMP = registerBlock("maroon_lamp", () -> new LampBlock(DyeColor.RED, AFBlocks.Properties.lamp));
+    public static final Supplier<Block> MAROON_LAMP = registerBlock("maroon_lamp", () -> new LampBlock(DDDyes.MAROON.get(), AFBlocks.Properties.lamp));
     public static final Supplier<Block> ROSE_LAMP = registerBlock("rose_lamp", () -> new LampBlock(DyeColor.PINK, AFBlocks.Properties.lamp));
 
     public static final Supplier<Block> MAROON_LAMP_CONNECTOR = registerBlockOnly("maroon_lamp_connector",
-            () -> new LampConnectorBlock(DyeColor.RED, AFBlocks.Properties.wood));
+            () -> new LampConnectorBlock(DDDyes.MAROON.get(), AFBlocks.Properties.wood));
     public static final Supplier<Block> ROSE_LAMP_CONNECTOR = registerBlockOnly("rose_lamp_connector",
             () -> new LampConnectorBlock(DyeColor.PINK, AFBlocks.Properties.wood));
 

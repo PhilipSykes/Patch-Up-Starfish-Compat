@@ -19,6 +19,9 @@
 		"main": [
 			"com.ancient.patchup.PatchUp"
 		],
+		"client": [
+			"com.ancient.patchup.PatchUpClient"
+		],
 		"fabric-datagen": [
 			"com.ancient.patchup.PatchUpDataGenerator"
 		]

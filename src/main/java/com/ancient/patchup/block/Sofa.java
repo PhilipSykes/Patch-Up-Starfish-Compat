@@ -1,7 +1,6 @@
 package com.ancient.patchup.block;
 
 import com.starfish_studios.another_furniture.block.SofaBlock;
-import com.starfish_studios.another_furniture.block.StoolBlock;
 import com.starfish_studios.another_furniture.registry.AFBlocks;
 import com.starfish_studios.another_furniture.registry.AFRegistry;
 import net.minecraft.block.Block;
