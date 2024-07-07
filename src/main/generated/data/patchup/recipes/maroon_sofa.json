@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sofas",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "dye_depot:maroon_wool"
+    }
+  },
+  "pattern": [
+    "#W ",
+    "#WW",
+    "/ /"
+  ],
+  "result": {
+    "count": 3,
+    "item": "another_furniture:maroon_sofa"
+  },
+  "show_notification": true
+}

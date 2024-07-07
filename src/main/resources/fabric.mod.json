@@ -17,10 +17,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"ancient.patchup.PatchUp"
+			"com.ancient.patchup.PatchUp"
 		],
 		"fabric-datagen": [
-			"ancient.patchup.PatchUpDataGenerator"
+			"com.ancient.patchup.PatchUpDataGenerator"
 		]
 	},
 	"mixins": [

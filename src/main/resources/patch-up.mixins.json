@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "ancient.patchup.mixin",
+	"package": "com.ancient.patchup.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"PatchUpMixin"

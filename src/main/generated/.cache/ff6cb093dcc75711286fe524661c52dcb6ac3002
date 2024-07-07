@@ -1,4 +1,7 @@
-// 1.20.1	2024-07-07T11:29:41.4832148	Patch Up/Tags for minecraft:block
+// 1.20.1	2024-07-07T15:08:42.1246991	Patch Up/Tags for minecraft:block
 0ed4408e489ec93388b06bc09df92f78f7741ee5 data\another_furniture\tags\blocks\tall_stools.json
 60a4b90f307b675536057dabb258410f7f92941e data\minecraft\tags\blocks\mineable\pickaxe.json
 290d6163383c7515edf348a5e13fb528d6c35aeb data\another_furniture\tags\blocks\stools.json
+513c1c349069383d1bfdd64046de40a28b67e8ea data\minecraft\tags\blocks\mineable\axe.json
+25fc4081765e4d82b71f337ba308f5ea3ea4367d data\another_furniture\tags\blocks\lamps.json
+855b188bf059ccd2d9ef7fdaa99ea2e7b5072cc0 data\another_furniture\tags\blocks\sofas.json
