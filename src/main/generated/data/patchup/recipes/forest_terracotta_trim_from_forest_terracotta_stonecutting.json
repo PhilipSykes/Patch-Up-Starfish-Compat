@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dye_depot:forest_terracotta"
+  },
+  "result": "patchup:forest_terracotta_trim"
+}

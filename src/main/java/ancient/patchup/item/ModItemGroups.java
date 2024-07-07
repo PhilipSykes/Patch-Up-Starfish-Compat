@@ -2,6 +2,8 @@ package ancient.patchup.item;
 
 import ancient.patchup.PatchUp;
 import ancient.patchup.block.ModBlocks;
+import ancient.patchup.block.Stool;
+import ancient.patchup.block.TallStool;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -31,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SLATE_TERRACOTTA_TRIM);
                         entries.add(ModBlocks.NAVY_TERRACOTTA_TRIM);
                         entries.add(ModBlocks.INDIGO_TERRACOTTA_TRIM);
+                        entries.add(Stool.MAROON_STOOL.get());
+                        entries.add(TallStool.MAROON_TALL_STOOL.get());
 
                     }).build());
 

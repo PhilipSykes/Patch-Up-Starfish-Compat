@@ -1,6 +1,8 @@
 package ancient.patchup;
 
 import ancient.patchup.block.ModBlocks;
+import ancient.patchup.block.Stool;
+import ancient.patchup.block.TallStool;
 import ancient.patchup.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
@@ -18,5 +20,7 @@ public class PatchUp implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 
 		ModBlocks.registerModBLocks();
+		Stool.init();
+		TallStool.init();
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dye_depot:teal_terracotta"
+  },
+  "result": "patchup:teal_terracotta_trim"
+}

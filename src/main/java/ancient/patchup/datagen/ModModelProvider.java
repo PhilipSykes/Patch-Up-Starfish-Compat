@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        /* Built */
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAROON_TERRACOTTA_TRIM);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROSE_TERRACOTTA_TRIM);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CORAL_TERRACOTTA_TRIM);

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terracotta_trims",
+  "key": {
+    "#": {
+      "item": "dye_depot:forest_terracotta"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 2,
+    "item": "patchup:forest_terracotta_trim"
+  },
+  "show_notification": true
+}

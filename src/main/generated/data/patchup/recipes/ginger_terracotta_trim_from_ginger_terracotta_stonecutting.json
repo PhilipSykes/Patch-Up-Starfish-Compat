@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dye_depot:ginger_terracotta"
+  },
+  "result": "patchup:ginger_terracotta_trim"
+}
