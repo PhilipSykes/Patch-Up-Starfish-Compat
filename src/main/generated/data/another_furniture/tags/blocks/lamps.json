@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "another_furniture:maroon_lamp"
+    "another_furniture:maroon_lamp",
+    "another_furniture:rose_lamp"
   ]
 }

@@ -26,5 +26,7 @@ public class PatchUp implements ModInitializer {
 		Sofa.registerFlammables();
 		Lamp.init();
 		Lamp.registerFlammables();
+		Curtain.init();
+		Curtain.registerFlammables();
 	}
 }

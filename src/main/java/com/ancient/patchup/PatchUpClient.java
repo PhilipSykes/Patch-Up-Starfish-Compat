@@ -1,5 +1,6 @@
 package com.ancient.patchup;
 
+import com.ancient.patchup.block.Curtain;
 import com.ancient.patchup.block.Lamp;
 import com.ancient.patchup.block.Sofa;
 import net.fabricmc.api.ClientModInitializer;
@@ -12,5 +13,8 @@ public class PatchUpClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(Sofa.MAROON_SOFA.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Lamp.MAROON_LAMP.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Lamp.ROSE_LAMP.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Curtain.MAROON_CURTAIN.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Curtain.ROSE_CURTAIN.get(), RenderLayer.getCutout());
     }
 }

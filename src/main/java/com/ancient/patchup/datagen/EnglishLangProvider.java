@@ -54,7 +54,11 @@ public class EnglishLangProvider extends FabricLanguageProvider {
 
         /* Lamp */
         translationBuilder.add("block.another_furniture.maroon_lamp", "Maroon Lamp");
+        translationBuilder.add("block.another_furniture.rose_lamp", "Rose Lamp");
 
+        /* Curtains */
+        translationBuilder.add("block.another_furniture.maroon_curtain", "Maroon Curtain");
+        translationBuilder.add("block.another_furniture.rose_curtain", "Rose Curtain");
 
         /* Other */
 

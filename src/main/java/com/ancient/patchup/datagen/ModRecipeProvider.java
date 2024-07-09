@@ -1,9 +1,6 @@
 package com.ancient.patchup.datagen;
 
-import com.ancient.patchup.block.Trims;
-import com.ancient.patchup.block.Sofa;
-import com.ancient.patchup.block.Stool;
-import com.ancient.patchup.block.TallStool;
+import com.ancient.patchup.block.*;
 import com.ninni.dye_depot.registry.DDItems;
 import com.starfish_studios.another_furniture.registry.AFItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -156,9 +153,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .group("terracotta_trims")
                 .criterion(RecipeProvider.hasItem(DDItems.INDIGO_TERRACOTTA), RecipeProvider.conditionsFromItem(DDItems.INDIGO_TERRACOTTA))
                 .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Trims.INDIGO_TERRACOTTA_TRIM)));
-
+        /* Another Furniture */
         /* Stool */
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Stool.MAROON_STOOL.get(), 3)
                 .pattern("#W#")
                 .pattern("/ /")
@@ -192,7 +188,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Stool.ROSE_STOOL.get()) + "dye"));
 
         /* Tall Stool */
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, TallStool.MAROON_TALL_STOOL.get(), 3)
                 .pattern("#W#")
                 .pattern("///")
@@ -227,5 +222,73 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .group("sofas")
                 .criterion(RecipeProvider.hasItem(DDItems.MAROON_DYE), RecipeProvider.conditionsFromItem(DDItems.MAROON_DYE))
                 .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Sofa.MAROON_SOFA.get()) + "dye"));
+
+        /* Lamp */
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Lamp.MAROON_LAMP.get(), 3)
+                .pattern(" W ")
+                .pattern("WTW")
+                .pattern(" / ")
+                .input('W', DDItems.MAROON_WOOL)
+                .input('T', Items.TORCH)
+                .input('/', Items.STICK)
+                .group("lamps")
+                .criterion(RecipeProvider.hasItem(DDItems.MAROON_WOOL), RecipeProvider.conditionsFromItem(DDItems.MAROON_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Lamp.MAROON_LAMP.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Lamp.MAROON_LAMP.get(), 1)
+                .input(DDItems.MAROON_DYE)
+                .input(AFItemTags.LAMPS)
+                .group("lamps")
+                .criterion(RecipeProvider.hasItem(DDItems.MAROON_DYE), RecipeProvider.conditionsFromItem(DDItems.MAROON_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Lamp.MAROON_LAMP.get()) + "dye"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Lamp.ROSE_LAMP.get(), 3)
+                .pattern(" W ")
+                .pattern("WTW")
+                .pattern(" / ")
+                .input('W', DDItems.ROSE_WOOL)
+                .input('T', Items.TORCH)
+                .input('/', Items.STICK)
+                .group("lamps")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_WOOL), RecipeProvider.conditionsFromItem(DDItems.ROSE_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Lamp.ROSE_LAMP.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Lamp.ROSE_LAMP.get(), 1)
+                .input(DDItems.ROSE_DYE)
+                .input(AFItemTags.LAMPS)
+                .group("lamps")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_DYE), RecipeProvider.conditionsFromItem(DDItems.ROSE_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Lamp.ROSE_LAMP.get()) + "dye"));
+
+        /* Curtains */
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Curtain.MAROON_CURTAIN.get(), 3)
+                .pattern("//")
+                .pattern("WW")
+                .pattern("WW")
+                .input('W', DDItems.MAROON_WOOL)
+                .input('/', Items.STICK)
+                .group("curtains")
+                .criterion(RecipeProvider.hasItem(DDItems.MAROON_WOOL), RecipeProvider.conditionsFromItem(DDItems.MAROON_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Curtain.MAROON_CURTAIN.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Curtain.MAROON_CURTAIN.get(), 1)
+                .input(DDItems.MAROON_DYE)
+                .input(AFItemTags.CURTAINS)
+                .group("curtains")
+                .criterion(RecipeProvider.hasItem(DDItems.MAROON_DYE), RecipeProvider.conditionsFromItem(DDItems.MAROON_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Curtain.MAROON_CURTAIN.get()) + "dye"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Curtain.ROSE_CURTAIN.get(), 3)
+                .pattern("//")
+                .pattern("WW")
+                .pattern("WW")
+                .input('W', DDItems.ROSE_WOOL)
+                .input('/', Items.STICK)
+                .group("curtains")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_WOOL), RecipeProvider.conditionsFromItem(DDItems.ROSE_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Curtain.ROSE_CURTAIN.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Curtain.ROSE_CURTAIN.get(), 1)
+                .input(DDItems.ROSE_DYE)
+                .input(AFItemTags.CURTAINS)
+                .group("curtains")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_DYE), RecipeProvider.conditionsFromItem(DDItems.ROSE_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Curtain.ROSE_CURTAIN.get()) + "dye"));
     }
 }

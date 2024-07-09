@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "another_furniture:maroon_stool"
+    "another_furniture:maroon_stool",
+    "another_furniture:rose_stool"
   ]
 }

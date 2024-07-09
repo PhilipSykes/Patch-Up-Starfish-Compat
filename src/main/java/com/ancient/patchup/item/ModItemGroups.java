@@ -41,6 +41,12 @@ public class ModItemGroups {
                         entries.add(Sofa.MAROON_SOFA.get());
                         /* Lamp */
                         entries.add(Lamp.MAROON_LAMP.get());
+                        entries.add(Lamp.ROSE_LAMP.get());
+                        /* Curtains */
+                        entries.add(Curtain.MAROON_CURTAIN.get());
+                        entries.add(Curtain.ROSE_CURTAIN.get());
+
+
 
 
                     }).build());

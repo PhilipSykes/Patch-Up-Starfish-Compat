@@ -1,9 +1,6 @@
 package com.ancient.patchup.datagen;
 
-import com.ancient.patchup.block.Lamp;
-import com.ancient.patchup.block.Trims;
-import com.ancient.patchup.block.Sofa;
-import com.ancient.patchup.block.Stool;
+import com.ancient.patchup.block.*;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
@@ -35,29 +32,30 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         /* Stool */
         addDrop(Stool.MAROON_STOOL.get());
         addDrop(Stool.ROSE_STOOL.get());
-        addDrop(Stool.CORAL_STOOL.get());
-        addDrop(Stool.GINGER_STOOL.get());
-        addDrop(Stool.TAN_STOOL.get());
-        addDrop(Stool.BEIGE_STOOL.get());
-        addDrop(Stool.AMBER_STOOL.get());
-        addDrop(Stool.OLIVE_STOOL.get());
-        addDrop(Stool.FOREST_STOOL.get());
-        addDrop(Stool.VERDANT_STOOL.get());
-        addDrop(Stool.TEAL_STOOL.get());
-        addDrop(Stool.MINT_STOOL.get());
-        addDrop(Stool.AQUA_STOOL.get());
-        addDrop(Stool.SLATE_STOOL.get());
-        addDrop(Stool.NAVY_STOOL.get());
-        addDrop(Stool.INDIGO_STOOL.get());
+        //addDrop(Stool.CORAL_STOOL.get());
+        //addDrop(Stool.GINGER_STOOL.get());
+        //addDrop(Stool.TAN_STOOL.get());
+        //addDrop(Stool.BEIGE_STOOL.get());
+        //addDrop(Stool.AMBER_STOOL.get());
+        //addDrop(Stool.OLIVE_STOOL.get());
+        //addDrop(Stool.FOREST_STOOL.get());
+        //addDrop(Stool.VERDANT_STOOL.get());
+        //addDrop(Stool.TEAL_STOOL.get());
+        //addDrop(Stool.MINT_STOOL.get());
+        //addDrop(Stool.AQUA_STOOL.get());
+        //addDrop(Stool.SLATE_STOOL.get());
+        //addDrop(Stool.NAVY_STOOL.get());
+        //addDrop(Stool.INDIGO_STOOL.get());
 
         /* Tall Stool */
-        addDrop(Stool.MAROON_STOOL.get());
+        addDrop(TallStool.MAROON_TALL_STOOL.get());
 
         /* Sofa */
         addDrop(Sofa.MAROON_SOFA.get());
 
         /* Lamp */
         addDrop(Lamp.MAROON_LAMP.get());
+        addDrop(Lamp.ROSE_LAMP.get());
 
     }
 }

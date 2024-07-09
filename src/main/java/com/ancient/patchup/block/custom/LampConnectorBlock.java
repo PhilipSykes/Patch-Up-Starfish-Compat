@@ -3,7 +3,6 @@ package com.ancient.patchup.block.custom;
 import com.ancient.patchup.block.Lamp;
 import com.ninni.dye_depot.registry.DDDyes;
 import com.starfish_studios.another_furniture.block.properties.ModBlockStateProperties;
-import com.starfish_studios.another_furniture.registry.AFBlocks;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
