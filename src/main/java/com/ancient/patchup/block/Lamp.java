@@ -1,22 +1,22 @@
 package com.ancient.patchup.block;
 
+
+import com.ancient.patchup.block.custom.LampBlock;
+import com.ancient.patchup.block.custom.LampConnectorBlock;
 import com.ninni.dye_depot.registry.DDDyes;
-import com.starfish_studios.another_furniture.block.LampBlock;
-import com.starfish_studios.another_furniture.block.LampConnectorBlock;
 import com.starfish_studios.another_furniture.registry.AFBlocks;
 import com.starfish_studios.another_furniture.registry.AFRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.util.DyeColor;
 
 import java.util.function.Supplier;
 
 
 public class Lamp {
 
-    public static final Supplier<Block> MAROON_LAMP = registerBlock("maroon_lamp", () -> new LampBlock(DyeColor.RED, AFBlocks.Properties.lamp));
-    public static final Supplier<Block> ROSE_LAMP = registerBlock("rose_lamp", () -> new LampBlock(DyeColor.PINK, AFBlocks.Properties.lamp));
+    public static final Supplier<Block> MAROON_LAMP = registerBlock("maroon_lamp", () -> new LampBlock(DDDyes.MAROON, AFBlocks.Properties.lamp));
+    public static final Supplier<Block> ROSE_LAMP = registerBlock("rose_lamp", () -> new LampBlock(DDDyes.ROSE, AFBlocks.Properties.lamp));
     //public static final Supplier<Block> CORAL_LAMP = registerBlock("coral_lamp", () -> new LampBlock(DDDyes.CORAL, AFBlocks.Properties.lamp));
     //public static final Supplier<Block> GINGER_LAMP = registerBlock("ginger_lamp", () -> new LampBlock(DDDyes.GINGER, AFBlocks.Properties.lamp));
     //public static final Supplier<Block> TAN_LAMP = registerBlock("tan_lamp", () -> new LampBlock(DDDyes.TAN, AFBlocks.Properties.lamp));
@@ -33,9 +33,9 @@ public class Lamp {
     //public static final Supplier<Block> INDIGO_LAMP = registerBlock("indigo_lamp", () -> new LampBlock(DDDyes.INDIGO, AFBlocks.Properties.lamp));
 
     public static final Supplier<Block> MAROON_LAMP_CONNECTOR = registerBlockOnly("maroon_lamp_connector",
-            () -> new LampConnectorBlock(DyeColor.RED, AFBlocks.Properties.wood));
+            () -> new LampConnectorBlock(DDDyes.MAROON, AFBlocks.Properties.wood));
     public static final Supplier<Block> ROSE_LAMP_CONNECTOR = registerBlockOnly("rose_lamp_connector",
-            () -> new LampConnectorBlock(DyeColor.PINK, AFBlocks.Properties.wood));
+            () -> new LampConnectorBlock(DDDyes.ROSE, AFBlocks.Properties.wood));
     //public static final Supplier<Block> CORAL_LAMP_CONNECTOR = registerBlockOnly("coral_lamp_connector",
             //() -> new LampConnectorBlock(DDDyes.CORAL, AFBlocks.Properties.wood));
     //public static final Supplier<Block> GINGER_LAMP_CONNECTOR = registerBlockOnly("ginger_lamp_connector",
