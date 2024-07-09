@@ -1,8 +1,8 @@
-// 1.20.1	2024-07-09T14:41:34.1534408	Patch Up/Tags for minecraft:block
-0ed4408e489ec93388b06bc09df92f78f7741ee5 data\another_furniture\tags\blocks\tall_stools.json
+// 1.20.1	2024-07-09T15:33:13.0228281	Patch Up/Tags for minecraft:block
+3c028b28c3287804a9067add1f569a2321c6fff2 data\another_furniture\tags\blocks\tall_stools.json
 60a4b90f307b675536057dabb258410f7f92941e data\minecraft\tags\blocks\mineable\pickaxe.json
 8ef1236c9da3a1004d250d2727cfaca8fae5778b data\another_furniture\tags\blocks\stools.json
-01236906202affa28f1a5a12567876127d2574e6 data\minecraft\tags\blocks\mineable\axe.json
-5e11285122311591f022c9715a69319aef19432b data\another_furniture\tags\blocks\lamps.json
+6b64a690aeeed35f43d87a13ad6269739cb304a1 data\minecraft\tags\blocks\mineable\axe.json
 1637231214504a962f8374a1967b960a72463eac data\another_furniture\tags\blocks\curtains.json
-855b188bf059ccd2d9ef7fdaa99ea2e7b5072cc0 data\another_furniture\tags\blocks\sofas.json
+5e11285122311591f022c9715a69319aef19432b data\another_furniture\tags\blocks\lamps.json
+b65f285a0d22e44a87dc4ec5d09a66cc6ee84877 data\another_furniture\tags\blocks\sofas.json

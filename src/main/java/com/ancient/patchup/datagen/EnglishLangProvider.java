@@ -48,9 +48,11 @@ public class EnglishLangProvider extends FabricLanguageProvider {
 
         /* Tall Stool */
         translationBuilder.add("block.another_furniture.maroon_tall_stool", "Maroon Tall Stool");
+        translationBuilder.add("block.another_furniture.rose_tall_stool", "Rose Tall Stool");
 
         /* Sofa */
         translationBuilder.add("block.another_furniture.maroon_sofa", "Maroon Sofa");
+        translationBuilder.add("block.another_furniture.rose_sofa", "Rose Sofa");
 
         /* Lamp */
         translationBuilder.add("block.another_furniture.maroon_lamp", "Maroon Lamp");

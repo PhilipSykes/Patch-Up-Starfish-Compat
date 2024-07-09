@@ -49,9 +49,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         /* Tall Stool */
         addDrop(TallStool.MAROON_TALL_STOOL.get());
+        addDrop(TallStool.ROSE_TALL_STOOL.get());
 
         /* Sofa */
         addDrop(Sofa.MAROON_SOFA.get());
+        addDrop(Sofa.ROSE_SOFA.get());
 
         /* Lamp */
         addDrop(Lamp.MAROON_LAMP.get());

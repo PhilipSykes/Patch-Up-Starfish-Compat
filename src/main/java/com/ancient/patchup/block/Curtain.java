@@ -31,7 +31,8 @@ public class Curtain {
     return AFRegistry.registerBlock(name, block);
 }
     public static void registerFlammables() {
-    //AFRegistry.setFlammable(MAROON_LAMP, 5, 20);
+    AFRegistry.setFlammable(MAROON_CURTAIN, 5, 20);
+    AFRegistry.setFlammable(ROSE_CURTAIN, 5, 20);
 
 }
     public static void init() {}

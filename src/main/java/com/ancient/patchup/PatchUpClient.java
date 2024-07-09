@@ -12,6 +12,7 @@ public class PatchUpClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         BlockRenderLayerMap.INSTANCE.putBlock(Sofa.MAROON_SOFA.get(), RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Sofa.ROSE_SOFA.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Lamp.MAROON_LAMP.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Lamp.ROSE_LAMP.get(), RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Curtain.MAROON_CURTAIN.get(), RenderLayer.getCutout());

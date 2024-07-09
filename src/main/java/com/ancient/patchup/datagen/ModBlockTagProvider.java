@@ -26,18 +26,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         Trims.INDIGO_TERRACOTTA_TRIM);
                 /* Another Furniture */
         this.getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(Stool.MAROON_STOOL.get(), Stool.ROSE_STOOL.get() , TallStool.MAROON_TALL_STOOL.get(), Sofa.MAROON_SOFA.get(),
-                        Lamp.MAROON_LAMP.get(), Lamp.ROSE_LAMP.get());
+                .add(Stool.MAROON_STOOL.get(), Stool.ROSE_STOOL.get() ,
+                    TallStool.MAROON_TALL_STOOL.get(), TallStool.ROSE_TALL_STOOL.get(),
+                    Sofa.MAROON_SOFA.get(), Sofa.ROSE_SOFA.get(),
+                    Lamp.MAROON_LAMP.get(), Lamp.ROSE_LAMP.get());
                 /* Stool */
         this.getOrCreateTagBuilder(AFBlockTags.STOOLS)
                 .add(Stool.MAROON_STOOL.get())
                 .add(Stool.ROSE_STOOL.get());
                 /* Tall Stool */
         this.getOrCreateTagBuilder(AFBlockTags.TALL_STOOLS)
-                .add(TallStool.MAROON_TALL_STOOL.get());
+                .add(TallStool.MAROON_TALL_STOOL.get())
+                .add(TallStool.ROSE_TALL_STOOL.get());
                 /* Sofa */
         this.getOrCreateTagBuilder(AFBlockTags.SOFAS)
-                .add(Sofa.MAROON_SOFA.get());
+                .add(Sofa.MAROON_SOFA.get())
+                .add(Sofa.ROSE_SOFA.get());
                 /* Lamp */
         this.getOrCreateTagBuilder(AFBlockTags.LAMPS)
                 .add(Lamp.MAROON_LAMP.get())

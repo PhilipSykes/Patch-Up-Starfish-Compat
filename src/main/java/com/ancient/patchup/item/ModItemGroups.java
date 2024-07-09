@@ -37,8 +37,10 @@ public class ModItemGroups {
                         entries.add(Stool.ROSE_STOOL.get());
                         /* Tall Stools */
                         entries.add(TallStool.MAROON_TALL_STOOL.get());
+                        entries.add(TallStool.ROSE_TALL_STOOL.get());
                         /* Sofas */
                         entries.add(Sofa.MAROON_SOFA.get());
+                        entries.add(Sofa.ROSE_SOFA.get());
                         /* Lamp */
                         entries.add(Lamp.MAROON_LAMP.get());
                         entries.add(Lamp.ROSE_LAMP.get());

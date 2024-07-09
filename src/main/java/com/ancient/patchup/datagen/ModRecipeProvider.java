@@ -205,6 +205,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(RecipeProvider.hasItem(DDItems.MAROON_DYE), RecipeProvider.conditionsFromItem(DDItems.MAROON_DYE))
                 .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(TallStool.MAROON_TALL_STOOL.get()) + "dye"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, TallStool.ROSE_TALL_STOOL.get(), 3)
+                .pattern("#W#")
+                .pattern("///")
+                .pattern("/ /")
+                .input('W', DDItems.ROSE_WOOL)
+                .input('#', ItemTags.PLANKS)
+                .input('/', Items.STICK)
+                .group("tall_stools")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_WOOL), RecipeProvider.conditionsFromItem(DDItems.ROSE_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(TallStool.ROSE_TALL_STOOL.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, TallStool.ROSE_TALL_STOOL.get(), 1)
+                .input(DDItems.ROSE_DYE)
+                .input(AFItemTags.STOOLS)
+                .group("tall_stools")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_DYE), RecipeProvider.conditionsFromItem(DDItems.ROSE_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(TallStool.ROSE_TALL_STOOL.get()) + "dye"));
+
         /* Sofa */
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Sofa.MAROON_SOFA.get(), 3)
                 .pattern("#W ")
@@ -222,6 +239,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .group("sofas")
                 .criterion(RecipeProvider.hasItem(DDItems.MAROON_DYE), RecipeProvider.conditionsFromItem(DDItems.MAROON_DYE))
                 .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Sofa.MAROON_SOFA.get()) + "dye"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Sofa.ROSE_SOFA.get(), 3)
+                .pattern("#W ")
+                .pattern("#WW")
+                .pattern("/ /")
+                .input('W', DDItems.ROSE_WOOL)
+                .input('#', ItemTags.PLANKS)
+                .input('/', Items.STICK)
+                .group("sofas")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_WOOL), RecipeProvider.conditionsFromItem(DDItems.ROSE_WOOL))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Sofa.ROSE_SOFA.get())));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Sofa.ROSE_SOFA.get(), 1)
+                .input(DDItems.ROSE_DYE)
+                .input(AFItemTags.SOFAS)
+                .group("sofas")
+                .criterion(RecipeProvider.hasItem(DDItems.ROSE_DYE), RecipeProvider.conditionsFromItem(DDItems.ROSE_DYE))
+                .offerTo(exporter, new Identifier(RecipeProvider.getRecipeName(Sofa.ROSE_SOFA.get()) + "dye"));
 
         /* Lamp */
         ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, Lamp.MAROON_LAMP.get(), 3)

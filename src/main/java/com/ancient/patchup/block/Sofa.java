@@ -11,6 +11,7 @@ import java.util.function.Supplier;
 
 public class Sofa {
     public static final Supplier<Block> MAROON_SOFA = registerBlock("maroon_sofa", () -> new SofaBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> ROSE_SOFA = registerBlock("rose_sofa", () -> new SofaBlock(AFBlocks.Properties.weak_wood));
 
 
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {
@@ -30,7 +31,9 @@ public class Sofa {
     }
 
     public static void registerFlammables() {
+
         AFRegistry.setFlammable(MAROON_SOFA, 5, 20);
+        AFRegistry.setFlammable(ROSE_SOFA, 5, 20);
     }
 
     public static void init() {}
