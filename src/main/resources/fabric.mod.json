@@ -12,8 +12,8 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/patch-up/icon.png",
+	"license": "Apache-2.0",
+	"icon": "assets/patchup/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

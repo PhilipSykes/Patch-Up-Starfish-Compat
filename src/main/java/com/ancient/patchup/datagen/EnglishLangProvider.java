@@ -22,8 +22,10 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.patchup.forest_terracotta_trim", "Forest Terracotta Trim");
         translationBuilder.add("block.patchup.verdant_terracotta_trim", "Verdant Terracotta Trim");
         translationBuilder.add("block.patchup.teal_terracotta_trim", "Teal Terracotta Trim");
+        translationBuilder.add("block.built.cyan_terracotta_trim", "Cyan Terracotta Trim");
         translationBuilder.add("block.patchup.mint_terracotta_trim", "Mint Terracotta Trim");
         translationBuilder.add("block.patchup.aqua_terracotta_trim", "Aqua Terracotta Trim");
+        translationBuilder.add("block.built.light_blue_terracotta_trim", "Sky Terracotta Trim");
         translationBuilder.add("block.patchup.slate_terracotta_trim", "Slate Terracotta Trim");
         translationBuilder.add("block.patchup.navy_terracotta_trim", "Navy Terracotta Trim");
         translationBuilder.add("block.patchup.indigo_terracotta_trim", "Indigo Terracotta Trim");
@@ -45,6 +47,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("block.another_furniture.slate_stool", "Slate Stool");
         translationBuilder.add("block.another_furniture.navy_stool", "Navy Stool");
         translationBuilder.add("block.another_furniture.indigo_stool", "Indigo Stool");
+        translationBuilder.add("block.another_furniture.black_stool", "Black Stool");
 
         /* Tall Stool */
         translationBuilder.add("block.another_furniture.maroon_tall_stool", "Maroon Tall Stool");
@@ -61,7 +64,6 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         /* Curtains */
         translationBuilder.add("block.another_furniture.maroon_curtain", "Maroon Curtain");
         translationBuilder.add("block.another_furniture.rose_curtain", "Rose Curtain");
-
         /* Other */
 
         translationBuilder.add("itemgroup.patchup_group", "Patch Up");

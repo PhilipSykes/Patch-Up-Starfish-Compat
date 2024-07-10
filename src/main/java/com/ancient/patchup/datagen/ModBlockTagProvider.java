@@ -2,6 +2,7 @@ package com.ancient.patchup.datagen;
 
 import com.ancient.patchup.block.*;
 import com.starfish_studios.another_furniture.registry.AFBlockTags;
+import com.starfish_studios.another_furniture.registry.AFBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
