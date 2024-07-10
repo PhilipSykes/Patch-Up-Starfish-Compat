@@ -11,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+
 public class Trims {
     /* Built */
     public static final Block MAROON_TERRACOTTA_TRIM = registerBlock("maroon_terracotta_trim",
