@@ -1,1 +1,7 @@
-{"type": "minecraft:crafting_shaped", "group": "comforts:hammock", "pattern": ["sws", "sas", "sws"], "key": {"a": {"item": "dye_depot:amber_wool"}, "s": {"tag": "c:string"}, "w": {"tag": "c:wooden_rods"}}, "result": {"item": "comforts:hammock_amber"}}
+{"type": "minecraft:crafting_shaped",
+  "group": "comforts:hammock",
+  "pattern": ["sws", "sas", "sws"],
+  "key": {"a": {"item": "dye_depot:amber_wool"},
+    "s": {"tag": "c:string"},
+    "w": {"tag": "c:wooden_rods"}},
+  "result": {"item": "comforts:hammock_amber"}}

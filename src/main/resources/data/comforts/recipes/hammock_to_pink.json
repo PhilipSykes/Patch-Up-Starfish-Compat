@@ -1,0 +1,16 @@
+{
+                "type": "minecraft:crafting_shapeless",
+                "group": "comforts:hammock_dyed",
+                "ingredients": [
+                    {
+                    "tag": "comforts:hammocks"
+                    },
+                    {
+                    "tag": "c:pink_dyes"
+                    }
+                ],
+                "result": {
+                    "item": "comforts:hammock_pink"
+                }
+            }
+            

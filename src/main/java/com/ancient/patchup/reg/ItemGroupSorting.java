@@ -52,9 +52,9 @@ public class ItemGroupSorting {
             );
 
 
-            // ComfortsRegistry.ITEMS.getEntries().forEach(item -> {
-            //  switch (item.get().getTranslationKey()) {
-            //     case "block.comforts.hammock_red": entries.addAfter(item.get(), ); break;
+            // ComfortsRegistry.ITEMS.getEntries().forEach(items -> {
+            //  switch (items.get().getTranslationKey()) {
+            //     case "block.comforts.hammock_red": entries.addAfter(items.get(), ); break;
             // }
 
         });

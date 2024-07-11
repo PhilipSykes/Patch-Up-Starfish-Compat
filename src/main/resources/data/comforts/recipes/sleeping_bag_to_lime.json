@@ -1,0 +1,16 @@
+{
+                "type": "minecraft:crafting_shapeless",
+                "group": "comforts:sleeping_bag_dyed",
+                "ingredients": [
+                    {
+                    "tag": "comforts:sleeping_bags"
+                    },
+                    {
+                    "tag": "c:lime_dyes"
+                    }
+                ],
+                "result": {
+                    "item": "comforts:sleeping_bag_lime"
+                }
+            }
+            
