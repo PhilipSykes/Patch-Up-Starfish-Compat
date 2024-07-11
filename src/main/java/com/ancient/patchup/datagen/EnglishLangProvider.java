@@ -10,6 +10,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
+
         /* Built */
         translationBuilder.add("block.patchup.maroon_terracotta_trim", "Maroon Terracotta Trim");
         translationBuilder.add("block.patchup.rose_terracotta_trim", "Rose Terracotta Trim");
@@ -52,20 +53,76 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         /* Tall Stool */
         translationBuilder.add("block.another_furniture.maroon_tall_stool", "Maroon Tall Stool");
         translationBuilder.add("block.another_furniture.rose_tall_stool", "Rose Tall Stool");
+        translationBuilder.add("block.another_furniture.coral_tall_stool", "Coral Tall Stool");
+        translationBuilder.add("block.another_furniture.ginger_tall_stool", "Ginger Tall Stool");
+        translationBuilder.add("block.another_furniture.tan_tall_stool", "Tan Tall Stool");
+        translationBuilder.add("block.another_furniture.beige_tall_stool", "Beige Tall Stool");
+        translationBuilder.add("block.another_furniture.amber_tall_stool", "Amber Tall Stool");
+        translationBuilder.add("block.another_furniture.olive_tall_stool", "Olive Tall Stool");
+        translationBuilder.add("block.another_furniture.forest_tall_stool", "Forest Tall Stool");
+        translationBuilder.add("block.another_furniture.verdant_tall_stool", "Verdant Tall Stool");
+        translationBuilder.add("block.another_furniture.teal_tall_stool", "Teal Tall Stool");
+        translationBuilder.add("block.another_furniture.mint_tall_stool", "Mint Tall Stool");
+        translationBuilder.add("block.another_furniture.aqua_tall_stool", "Aqua Tall Stool");
+        translationBuilder.add("block.another_furniture.slate_tall_stool", "Slate Tall Stool");
+        translationBuilder.add("block.another_furniture.navy_tall_stool", "Navy Tall Stool");
+        translationBuilder.add("block.another_furniture.indigo_tall_stool", "Indigo Tall Stool");
 
         /* Sofa */
         translationBuilder.add("block.another_furniture.maroon_sofa", "Maroon Sofa");
         translationBuilder.add("block.another_furniture.rose_sofa", "Rose Sofa");
+        translationBuilder.add("block.another_furniture.coral_sofa", "Coral Sofa");
+        translationBuilder.add("block.another_furniture.ginger_sofa", "Ginger Sofa");
+        translationBuilder.add("block.another_furniture.tan_sofa", "Tan Sofa");
+        translationBuilder.add("block.another_furniture.beige_sofa", "Beige Sofa");
+        translationBuilder.add("block.another_furniture.amber_sofa", "Amber Sofa");
+        translationBuilder.add("block.another_furniture.olive_sofa", "Olive Sofa");
+        translationBuilder.add("block.another_furniture.forest_sofa", "Forest Sofa");
+        translationBuilder.add("block.another_furniture.verdant_sofa", "Verdant Sofa");
+        translationBuilder.add("block.another_furniture.teal_sofa", "Teal Sofa");
+        translationBuilder.add("block.another_furniture.mint_sofa", "Mint Sofa");
+        translationBuilder.add("block.another_furniture.aqua_sofa", "Aqua Sofa");
+        translationBuilder.add("block.another_furniture.slate_sofa", "Slate Sofa");
+        translationBuilder.add("block.another_furniture.navy_sofa", "Navy Sofa");
+        translationBuilder.add("block.another_furniture.indigo_sofa", "Indigo Sofa");
 
         /* Lamp */
         translationBuilder.add("block.another_furniture.maroon_lamp", "Maroon Lamp");
         translationBuilder.add("block.another_furniture.rose_lamp", "Rose Lamp");
+        translationBuilder.add("block.another_furniture.coral_lamp", "Coral Lamp");
+        translationBuilder.add("block.another_furniture.ginger_lamp", "Ginger Lamp");
+        translationBuilder.add("block.another_furniture.tan_lamp", "Tan Lamp");
+        translationBuilder.add("block.another_furniture.beige_lamp", "Beige Lamp");
+        translationBuilder.add("block.another_furniture.amber_lamp", "Amber Lamp");
+        translationBuilder.add("block.another_furniture.olive_lamp", "Olive Lamp");
+        translationBuilder.add("block.another_furniture.forest_lamp", "Forest Lamp");
+        translationBuilder.add("block.another_furniture.verdant_lamp", "Verdant Lamp");
+        translationBuilder.add("block.another_furniture.teal_lamp", "Teal Lamp");
+        translationBuilder.add("block.another_furniture.mint_lamp", "Mint Lamp");
+        translationBuilder.add("block.another_furniture.aqua_lamp", "Aqua Lamp");
+        translationBuilder.add("block.another_furniture.slate_lamp", "Slate Lamp");
+        translationBuilder.add("block.another_furniture.navy_lamp", "Navy Lamp");
+        translationBuilder.add("block.another_furniture.indigo_lamp", "Indigo Lamp");
 
         /* Curtains */
         translationBuilder.add("block.another_furniture.maroon_curtain", "Maroon Curtain");
         translationBuilder.add("block.another_furniture.rose_curtain", "Rose Curtain");
-        /* Other */
+        translationBuilder.add("block.another_furniture.coral_curtain", "Coral Curtain");
+        translationBuilder.add("block.another_furniture.ginger_curtain", "Ginger Curtain");
+        translationBuilder.add("block.another_furniture.tan_curtain", "Tan Curtain");
+        translationBuilder.add("block.another_furniture.beige_curtain", "Beige Curtain");
+        translationBuilder.add("block.another_furniture.amber_curtain", "Amber Curtain");
+        translationBuilder.add("block.another_furniture.olive_curtain", "Olive Curtain");
+        translationBuilder.add("block.another_furniture.forest_curtain", "Forest Curtain");
+        translationBuilder.add("block.another_furniture.verdant_curtain", "Verdant Curtain");
+        translationBuilder.add("block.another_furniture.teal_curtain", "Teal Curtain");
+        translationBuilder.add("block.another_furniture.mint_curtain", "Mint Curtain");
+        translationBuilder.add("block.another_furniture.aqua_curtain", "Aqua Curtain");
+        translationBuilder.add("block.another_furniture.slate_curtain", "Slate Curtain");
+        translationBuilder.add("block.another_furniture.navy_curtain", "Navy Curtain");
+        translationBuilder.add("block.another_furniture.indigo_curtain", "Indigo Curtain");
 
+        /* Other */
         translationBuilder.add("itemgroup.patchup_group", "Patch Up");
 
     }

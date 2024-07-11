@@ -2,6 +2,7 @@ package com.ancient.patchup;
 
 import com.ancient.patchup.block.*;
 import com.ancient.patchup.item.ModItemGroups;
+import com.ancient.patchup.reg.ItemGroupSorting;
 import com.ancient.patchup.reg.VanillaCompat;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +18,7 @@ public class PatchUp implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+		ItemGroupSorting.registerGroupSorting();
 
 		Trims.registerModBLocks();
 		Stool.init();
