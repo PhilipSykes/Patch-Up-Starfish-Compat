@@ -13,20 +13,20 @@ import java.util.function.Supplier;
 public class Stool {
     public static final Supplier<Block> MAROON_STOOL = registerBlock("maroon_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
     public static final Supplier<Block> ROSE_STOOL = registerBlock("rose_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> CORAL_STOOL = registerBlock("coral_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> GINGER_STOOL = registerBlock("ginger_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> TAN_STOOL = registerBlock("tan_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> BEIGE_STOOL = registerBlock("beige_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> AMBER_STOOL = registerBlock("amber_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> OLIVE_STOOL = registerBlock("olive_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> FOREST_STOOL = registerBlock("forest_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> VERDANT_STOOL = registerBlock("verdant_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> TEAL_STOOL = registerBlock("teal_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> MINT_STOOL = registerBlock("mint_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> AQUA_STOOL = registerBlock("aqua_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> SLATE_STOOL = registerBlock("slate_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> NAVY_STOOL = registerBlock("navy_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
-    //public static final Supplier<Block> INDIGO_STOOL = registerBlock("indigo_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> CORAL_STOOL = registerBlock("coral_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> GINGER_STOOL = registerBlock("ginger_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> TAN_STOOL = registerBlock("tan_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> BEIGE_STOOL = registerBlock("beige_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> AMBER_STOOL = registerBlock("amber_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> OLIVE_STOOL = registerBlock("olive_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> FOREST_STOOL = registerBlock("forest_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> VERDANT_STOOL = registerBlock("verdant_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> TEAL_STOOL = registerBlock("teal_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> MINT_STOOL = registerBlock("mint_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> AQUA_STOOL = registerBlock("aqua_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> SLATE_STOOL = registerBlock("slate_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> NAVY_STOOL = registerBlock("navy_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
+    public static final Supplier<Block> INDIGO_STOOL = registerBlock("indigo_stool", () -> new StoolBlock(AFBlocks.Properties.weak_wood));
 
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {
         Supplier<T> supplier = AFRegistry.registerBlock(name, block);
