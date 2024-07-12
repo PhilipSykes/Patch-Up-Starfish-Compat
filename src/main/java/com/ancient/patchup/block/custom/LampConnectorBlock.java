@@ -160,20 +160,20 @@ public class LampConnectorBlock extends Block implements Waterloggable {
         switch (color) {
             case MAROON -> var10000 = (Block) Lamp.MAROON_LAMP.get();
             case ROSE -> var10000 = (Block)Lamp.ROSE_LAMP.get();
-            //case MAGENTA -> var10000 = (Block)AFBlocks.MAGENTA_LAMP.get();
-            //case LIGHT_BLUE -> var10000 = (Block)AFBlocks.LIGHT_BLUE_LAMP.get();
-            //case YELLOW -> var10000 = (Block)AFBlocks.YELLOW_LAMP.get();
-            //case LIME -> var10000 = (Block)AFBlocks.LIME_LAMP.get();
-            //case PINK -> var10000 = (Block)AFBlocks.PINK_LAMP.get();
-            //case GRAY -> var10000 = (Block)AFBlocks.GRAY_LAMP.get();
-            //case LIGHT_GRAY -> var10000 = (Block)AFBlocks.LIGHT_GRAY_LAMP.get();
-            //case CYAN -> var10000 = (Block)AFBlocks.CYAN_LAMP.get();
-            //case PURPLE -> var10000 = (Block)AFBlocks.PURPLE_LAMP.get();
-            //case BLUE -> var10000 = (Block)AFBlocks.BLUE_LAMP.get();
-            //case BROWN -> var10000 = (Block)AFBlocks.BROWN_LAMP.get();
-            //case GREEN -> var10000 = (Block)AFBlocks.GREEN_LAMP.get();
-            //case RED -> var10000 = (Block)AFBlocks.RED_LAMP.get();
-            //case BLACK -> var10000 = (Block)AFBlocks.BLACK_LAMP.get();
+            case CORAL -> var10000 = (Block)Lamp.CORAL_LAMP.get();
+            case GINGER -> var10000 = (Block)Lamp.GINGER_LAMP.get();
+            case TAN -> var10000 = (Block)Lamp.TAN_LAMP.get();
+            case BEIGE -> var10000 = (Block)Lamp.BEIGE_LAMP.get();
+            case AMBER -> var10000 = (Block)Lamp.AMBER_LAMP.get();
+            case OLIVE -> var10000 = (Block)Lamp.OLIVE_LAMP.get();
+            case FOREST -> var10000 = (Block)Lamp.FOREST_LAMP.get();
+            case VERDANT -> var10000 = (Block)Lamp.VERDANT_LAMP.get();
+            case TEAL -> var10000 = (Block)Lamp.TEAL_LAMP.get();
+            case MINT -> var10000 = (Block)Lamp.MINT_LAMP.get();
+            case AQUA -> var10000 = (Block)Lamp.AQUA_LAMP.get();
+            case SLATE -> var10000 = (Block)Lamp.SLATE_LAMP.get();
+            case NAVY -> var10000 = (Block)Lamp.NAVY_LAMP.get();
+            case INDIGO -> var10000 = (Block)Lamp.INDIGO_LAMP.get();
             default -> throw new IncompatibleClassChangeError();
         }
 

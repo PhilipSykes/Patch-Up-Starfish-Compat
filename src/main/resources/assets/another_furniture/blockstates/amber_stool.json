@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "low=false": {
+      "model": "another_furniture:block/stool/amber"
+    },
+    "low=true": {
+      "model": "another_furniture:block/stool/amber_low"
+    }
+  }
+}

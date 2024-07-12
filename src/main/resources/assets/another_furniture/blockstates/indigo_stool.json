@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "low=false": {
+      "model": "another_furniture:block/stool/indigo"
+    },
+    "low=true": {
+      "model": "another_furniture:block/stool/indigo_low"
+    }
+  }
+}

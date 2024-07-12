@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "low=false": {
+      "model": "another_furniture:block/stool/tan"
+    },
+    "low=true": {
+      "model": "another_furniture:block/stool/tan_low"
+    }
+  }
+}

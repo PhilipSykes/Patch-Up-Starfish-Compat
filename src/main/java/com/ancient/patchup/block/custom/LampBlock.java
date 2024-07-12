@@ -241,20 +241,20 @@ public class LampBlock extends Block implements Waterloggable {
         switch (color) {
             case MAROON -> var10000 = (Block) Lamp.MAROON_LAMP_CONNECTOR.get();
             case ROSE -> var10000 = (Block) Lamp.ROSE_LAMP_CONNECTOR.get();
-            //case MAGENTA -> var10000 = (Block)AFBlocks.MAGENTA_LAMP_CONNECTOR.get();
-            //case LIGHT_BLUE -> var10000 = (Block)AFBlocks.LIGHT_BLUE_LAMP_CONNECTOR.get();
-            //case YELLOW -> var10000 = (Block)AFBlocks.YELLOW_LAMP_CONNECTOR.get();
-            //case LIME -> var10000 = (Block)AFBlocks.LIME_LAMP_CONNECTOR.get();
-            //case PINK -> var10000 = (Block)AFBlocks.PINK_LAMP_CONNECTOR.get();
-            //case GRAY -> var10000 = (Block)AFBlocks.GRAY_LAMP_CONNECTOR.get();
-            //case LIGHT_GRAY -> var10000 = (Block)AFBlocks.LIGHT_GRAY_LAMP_CONNECTOR.get();
-            //case CYAN -> var10000 = (Block)AFBlocks.CYAN_LAMP_CONNECTOR.get();
-            //case PURPLE -> var10000 = (Block)AFBlocks.PURPLE_LAMP_CONNECTOR.get();
-            //case BLUE -> var10000 = (Block)AFBlocks.BLUE_LAMP_CONNECTOR.get();
-            //case BROWN -> var10000 = (Block)AFBlocks.BROWN_LAMP_CONNECTOR.get();
-            //case GREEN -> var10000 = (Block)AFBlocks.GREEN_LAMP_CONNECTOR.get();
-            //case RED -> var10000 = (Block)AFBlocks.RED_LAMP_CONNECTOR.get();
-            //case BLACK -> var10000 = (Block)AFBlocks.BLACK_LAMP_CONNECTOR.get();
+            case CORAL -> var10000 = (Block) Lamp.CORAL_LAMP_CONNECTOR.get();
+            case GINGER -> var10000 = (Block) Lamp.GINGER_LAMP_CONNECTOR.get();
+            case TAN -> var10000 = (Block) Lamp.TAN_LAMP_CONNECTOR.get();
+            case BEIGE -> var10000 = (Block) Lamp.BEIGE_LAMP_CONNECTOR.get();
+            case AMBER -> var10000 = (Block) Lamp.AMBER_LAMP_CONNECTOR.get();
+            case OLIVE -> var10000 = (Block) Lamp.OLIVE_LAMP_CONNECTOR.get();
+            case FOREST -> var10000 = (Block) Lamp.FOREST_LAMP_CONNECTOR.get();
+            case VERDANT -> var10000 = (Block) Lamp.VERDANT_LAMP_CONNECTOR.get();
+            case TEAL -> var10000 = (Block) Lamp.TEAL_LAMP_CONNECTOR.get();
+            case MINT -> var10000 = (Block) Lamp.MINT_LAMP_CONNECTOR.get();
+            case AQUA -> var10000 = (Block) Lamp.AQUA_LAMP_CONNECTOR.get();
+            case SLATE -> var10000 = (Block) Lamp.SLATE_LAMP_CONNECTOR.get();
+            case NAVY -> var10000 = (Block) Lamp.NAVY_LAMP_CONNECTOR.get();
+            case INDIGO -> var10000 = (Block) Lamp.INDIGO_LAMP_CONNECTOR.get();
             default -> throw new IncompatibleClassChangeError();
         }
 

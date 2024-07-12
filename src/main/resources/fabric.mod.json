@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "patchup",
-	"version": "Beta 2",
+	"version": "Dev 2",
 	"name": "Patch Up",
 	"description": "Add missing colorful blocks to the game!",
 	"authors": [
