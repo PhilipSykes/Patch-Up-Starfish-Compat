@@ -52,6 +52,9 @@ public class ItemGroupSorting {
             );
 
 
+
+
+
             // ComfortsRegistry.ITEMS.getEntries().forEach(items -> {
             //  switch (items.get().getTranslationKey()) {
             //     case "block.comforts.hammock_red": entries.addAfter(items.get(), ); break;
