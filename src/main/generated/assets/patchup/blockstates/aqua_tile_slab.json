@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/aqua_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/aqua_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/aqua_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lamps",
+  "ingredients": [
+    {
+      "item": "dye_depot:verdant_dye"
+    },
+    {
+      "tag": "another_furniture:lamps"
+    }
+  ],
+  "result": {
+    "item": "another_furniture:verdant_lamp"
+  }
+}

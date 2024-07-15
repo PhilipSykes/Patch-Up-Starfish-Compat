@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "patchup:block/olive_tiles",
+    "side": "patchup:block/olive_tiles",
+    "top": "patchup:block/olive_tiles"
+  }
+}

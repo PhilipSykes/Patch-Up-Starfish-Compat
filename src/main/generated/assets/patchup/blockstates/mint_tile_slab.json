@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/mint_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/mint_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/mint_tile_slab_top"
+    }
+  }
+}

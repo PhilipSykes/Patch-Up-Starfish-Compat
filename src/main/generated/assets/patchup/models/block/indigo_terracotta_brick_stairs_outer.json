@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "patchup:block/indigo_terracotta_bricks",
+    "side": "patchup:block/indigo_terracotta_bricks",
+    "top": "patchup:block/indigo_terracotta_bricks"
+  }
+}

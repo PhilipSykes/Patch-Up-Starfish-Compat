@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "patchup:block/aqua_shingles",
+    "side": "patchup:block/aqua_shingles",
+    "top": "patchup:block/aqua_shingles"
+  }
+}

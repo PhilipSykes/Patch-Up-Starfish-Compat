@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tall_stools",
+  "ingredients": [
+    {
+      "item": "dye_depot:tan_dye"
+    },
+    {
+      "tag": "another_furniture:stools"
+    }
+  ],
+  "result": {
+    "item": "another_furniture:tan_tall_stool"
+  }
+}

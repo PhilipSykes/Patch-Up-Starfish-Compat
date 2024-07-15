@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "patchup:block/teal_tiles",
+    "side": "patchup:block/teal_tiles",
+    "top": "patchup:block/teal_tiles"
+  }
+}

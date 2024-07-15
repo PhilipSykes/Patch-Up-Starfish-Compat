@@ -1,6 +1,7 @@
 package com.ancient.patchup.datagen;
 
 import com.ancient.patchup.block.*;
+import com.ancient.patchup.block.another_furniture.*;
 import com.ninni.dye_depot.registry.DDItems;
 import com.starfish_studios.another_furniture.registry.AFItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

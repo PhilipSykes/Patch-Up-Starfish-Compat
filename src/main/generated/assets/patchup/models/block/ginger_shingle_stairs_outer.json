@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "patchup:block/ginger_shingles",
+    "side": "patchup:block/ginger_shingles",
+    "top": "patchup:block/ginger_shingles"
+  }
+}

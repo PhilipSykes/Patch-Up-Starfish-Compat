@@ -1,6 +1,10 @@
 package com.ancient.patchup.datagen;
 
 import com.ancient.patchup.block.*;
+import com.ancient.patchup.block.another_furniture.Lamp;
+import com.ancient.patchup.block.another_furniture.Sofa;
+import com.ancient.patchup.block.another_furniture.Stool;
+import com.ancient.patchup.block.another_furniture.TallStool;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 

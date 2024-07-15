@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "patchup:block/rose_shingles",
+    "side": "patchup:block/rose_shingles",
+    "top": "patchup:block/rose_shingles"
+  }
+}

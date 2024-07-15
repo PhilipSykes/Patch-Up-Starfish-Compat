@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "curtains",
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "dye_depot:coral_wool"
+    }
+  },
+  "pattern": [
+    "//",
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "count": 3,
+    "item": "another_furniture:coral_curtain"
+  },
+  "show_notification": true
+}

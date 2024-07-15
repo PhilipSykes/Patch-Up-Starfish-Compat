@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "patchup:block/rose_terracotta_bricks",
+    "side": "patchup:block/rose_terracotta_bricks",
+    "top": "patchup:block/rose_terracotta_bricks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/ginger_shingle_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/ginger_shingles"
+    },
+    "type=top": {
+      "model": "patchup:block/ginger_shingle_slab_top"
+    }
+  }
+}

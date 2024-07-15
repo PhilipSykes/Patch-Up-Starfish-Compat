@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/tan_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/tan_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/tan_tile_slab_top"
+    }
+  }
+}
