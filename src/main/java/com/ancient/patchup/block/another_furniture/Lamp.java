@@ -1,8 +1,8 @@
-package com.ancient.patchup.block;
+package com.ancient.patchup.block.another_furniture;
 
 
-import com.ancient.patchup.block.custom.LampBlock;
-import com.ancient.patchup.block.custom.LampConnectorBlock;
+import com.ancient.patchup.block.another_furniture.custom.LampBlock;
+import com.ancient.patchup.block.another_furniture.custom.LampConnectorBlock;
 import com.ninni.dye_depot.registry.DDDyes;
 import com.starfish_studios.another_furniture.registry.AFBlocks;
 import com.starfish_studios.another_furniture.registry.AFRegistry;

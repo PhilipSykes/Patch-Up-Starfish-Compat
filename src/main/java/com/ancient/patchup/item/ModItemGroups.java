@@ -2,6 +2,7 @@ package com.ancient.patchup.item;
 
 import com.ancient.patchup.PatchUp;
 import com.ancient.patchup.block.*;
+import com.ancient.patchup.block.another_furniture.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

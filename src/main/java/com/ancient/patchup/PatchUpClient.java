@@ -1,8 +1,8 @@
 package com.ancient.patchup;
 
-import com.ancient.patchup.block.Curtain;
-import com.ancient.patchup.block.Lamp;
-import com.ancient.patchup.block.Sofa;
+import com.ancient.patchup.block.another_furniture.Curtain;
+import com.ancient.patchup.block.another_furniture.Lamp;
+import com.ancient.patchup.block.another_furniture.Sofa;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;

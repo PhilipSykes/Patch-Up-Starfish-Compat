@@ -1,6 +1,6 @@
-package com.ancient.patchup.block.custom;
+package com.ancient.patchup.block.another_furniture.custom;
 
-import com.ancient.patchup.block.Lamp;
+import com.ancient.patchup.block.another_furniture.Lamp;
 import com.ninni.dye_depot.registry.DDDyes;
 import com.starfish_studios.another_furniture.block.properties.ModBlockStateProperties;
 import com.starfish_studios.another_furniture.registry.AFItemTags;

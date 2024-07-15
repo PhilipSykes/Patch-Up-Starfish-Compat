@@ -1,4 +1,4 @@
-package com.ancient.patchup.block;
+package com.ancient.patchup.block.another_furniture;
 
 import com.starfish_studios.another_furniture.block.CurtainBlock;
 import com.starfish_studios.another_furniture.registry.AFBlocks;
