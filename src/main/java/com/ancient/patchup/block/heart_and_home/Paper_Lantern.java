@@ -1,7 +1,6 @@
 package com.ancient.patchup.block.heart_and_home;
 
 import com.ancient.patchup.PatchUp;
-import com.starfish_studios.hearth_and_home.registry.HNHRegistry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -12,8 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-
-import java.util.function.Supplier;
 
 public class Paper_Lantern {
 

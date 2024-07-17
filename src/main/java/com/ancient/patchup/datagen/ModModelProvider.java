@@ -2,6 +2,9 @@ package com.ancient.patchup.datagen;
 
 import com.ancient.patchup.block.Trims;
 import com.ancient.patchup.block.heart_and_home.*;
+import com.ancient.patchup.block.heart_and_home.Shingles;
+import com.ancient.patchup.block.heart_and_home.Terracota_Bricks;
+import com.ancient.patchup.block.heart_and_home.Tiles;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -34,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(Trims.NAVY_TERRACOTTA_TRIM);
         blockStateModelGenerator.registerSimpleCubeAll(Trims.INDIGO_TERRACOTTA_TRIM);
 
+        /* Paper Lantern */
         blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.MAROON_PAPER_LANTERN);
         blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.ROSE_PAPER_LANTERN);
         blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.CORAL_PAPER_LANTERN);
