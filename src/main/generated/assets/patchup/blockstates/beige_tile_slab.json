@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/beige_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/beige_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/beige_tile_slab_top"
+    }
+  }
+}

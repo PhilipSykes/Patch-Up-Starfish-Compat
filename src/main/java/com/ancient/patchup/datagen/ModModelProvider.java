@@ -1,6 +1,7 @@
 package com.ancient.patchup.datagen;
 
 import com.ancient.patchup.block.Trims;
+import com.ancient.patchup.block.heart_and_home.*;
 import com.ancient.patchup.block.heart_and_home.Shingles;
 import com.ancient.patchup.block.heart_and_home.Terracota_Bricks;
 import com.ancient.patchup.block.heart_and_home.Tiles;
@@ -36,185 +37,219 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(Trims.NAVY_TERRACOTTA_TRIM);
         blockStateModelGenerator.registerSimpleCubeAll(Trims.INDIGO_TERRACOTTA_TRIM);
 
-        BlockStateModelGenerator.BlockTexturePool MaroonShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.MAROON_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool RoseShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.ROSE_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool CoralShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.CORAL_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool GingerShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.GINGER_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool TanShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.TAN_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool BeigeShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.BEIGE_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool AmberShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.AMBER_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool OliveShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.OLIVE_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool ForestShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.FOREST_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool VerdantShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.VERDANT_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool TealShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.TEAL_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool MintShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.MINT_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool AquaShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.AQUA_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool SlateShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.SLATE_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool NavyShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.NAVY_SHINGLES.get());
-        BlockStateModelGenerator.BlockTexturePool IndigoShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.INDIGO_SHINGLES.get());
+        /* Paper Lantern */
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.MAROON_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.ROSE_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.CORAL_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.GINGER_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.TAN_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.BEIGE_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.AMBER_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.OLIVE_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.FOREST_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.VERDANT_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.TEAL_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.MINT_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.AQUA_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.SLATE_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.NAVY_PAPER_LANTERN);
+        blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.INDIGO_PAPER_LANTERN);
 
-        BlockStateModelGenerator.BlockTexturePool MaroonTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.MAROON_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool RoseTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.ROSE_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool CoralTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.CORAL_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool GingerTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.GINGER_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool TanTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.TAN_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool BeigeTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.BEIGE_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool AmberTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.AMBER_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool OliveTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.OLIVE_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool ForestTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.FOREST_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool VerdantTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.VERDANT_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool TealTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.TEAL_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool MintTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.MINT_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool AquaTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.AQUA_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool SlateTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.SLATE_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool NavyTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.NAVY_TERRACOTTA_BRICKS.get());
-        BlockStateModelGenerator.BlockTexturePool IndigoTerracotaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracota_Bricks.INDIGO_TERRACOTTA_BRICKS.get());
+        BlockStateModelGenerator.BlockTexturePool MaroonShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.MAROON_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool RoseShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.ROSE_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool CoralShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.CORAL_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool GingerShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.GINGER_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool TanShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.TAN_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool BeigeShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.BEIGE_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool AmberShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.AMBER_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool OliveShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.OLIVE_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool ForestShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.FOREST_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool VerdantShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.VERDANT_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool TealShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.TEAL_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool MintShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.MINT_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool AquaShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.AQUA_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool SlateShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.SLATE_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool NavyShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.NAVY_SHINGLES);
+        BlockStateModelGenerator.BlockTexturePool IndigoShinglesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Shingles.INDIGO_SHINGLES);
 
-        BlockStateModelGenerator.BlockTexturePool MaroonTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.MAROON_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool RoseTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.ROSE_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool CoralTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.CORAL_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool GingerTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.GINGER_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool TanTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.TAN_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool BeigeTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.BEIGE_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool AmberTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.AMBER_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool OliveTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.OLIVE_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool ForestTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.FOREST_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool VerdantTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.VERDANT_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool TealTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.TEAL_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool MintTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.MINT_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool AquaTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.AQUA_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool SlateTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.SLATE_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool NavyTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.NAVY_TILES.get());
-        BlockStateModelGenerator.BlockTexturePool IndigoTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.INDIGO_TILES.get());
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.MAROON_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.MAROON_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.ROSE_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.ROSE_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.CORAL_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.CORAL_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.GINGER_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.GINGER_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.TAN_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.TAN_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.BEIGE_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.BEIGE_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.AMBER_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.AMBER_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.OLIVE_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.OLIVE_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.FOREST_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.FOREST_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.VERDANT_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.VERDANT_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.TEAL_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.TEAL_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.MINT_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.MINT_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.AQUA_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.AQUA_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.SLATE_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.SLATE_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.NAVY_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.NAVY_STAINED_BARRED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(Stained_Barred_Glass.INDIGO_STAINED_BARRED_GLASS, Stained_Barred_Glass_Pane.INDIGO_STAINED_BARRED_GLASS_PANE);
 
-        MaroonShinglesPool.stairs(Shingles.MAROON_SHINGLE_STAIRS.get());
-        MaroonShinglesPool.slab(Shingles.MAROON_SHINGLE_SLAB.get());
+        BlockStateModelGenerator.BlockTexturePool MaroonTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.MAROON_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool RoseTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.ROSE_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool CoralTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.CORAL_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool GingerTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.GINGER_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool TanTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.TAN_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool BeigeTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.BEIGE_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool AmberTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.AMBER_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool OliveTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.OLIVE_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool ForestTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.FOREST_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool VerdantTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.VERDANT_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool TealTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.TEAL_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool MintTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.MINT_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool AquaTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.AQUA_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool SlateTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.SLATE_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool NavyTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.NAVY_TERRACOTTA_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool IndigoTerracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICKS);
 
-        MaroonTerracotaBricksPool.stairs(Terracota_Bricks.MAROON_TERRACOTTA_BRICK_STAIRS.get());
-        MaroonTerracotaBricksPool.slab(Terracota_Bricks.MAROON_TERRACOTTA_BRICK_SLAB.get());
+        BlockStateModelGenerator.BlockTexturePool MaroonTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.MAROON_TILES);
+        BlockStateModelGenerator.BlockTexturePool RoseTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.ROSE_TILES);
+        BlockStateModelGenerator.BlockTexturePool CoralTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.CORAL_TILES);
+        BlockStateModelGenerator.BlockTexturePool GingerTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.GINGER_TILES);
+        BlockStateModelGenerator.BlockTexturePool TanTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.TAN_TILES);
+        BlockStateModelGenerator.BlockTexturePool BeigeTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.BEIGE_TILES);
+        BlockStateModelGenerator.BlockTexturePool AmberTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.AMBER_TILES);
+        BlockStateModelGenerator.BlockTexturePool OliveTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.OLIVE_TILES);
+        BlockStateModelGenerator.BlockTexturePool ForestTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.FOREST_TILES);
+        BlockStateModelGenerator.BlockTexturePool VerdantTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.VERDANT_TILES);
+        BlockStateModelGenerator.BlockTexturePool TealTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.TEAL_TILES);
+        BlockStateModelGenerator.BlockTexturePool MintTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.MINT_TILES);
+        BlockStateModelGenerator.BlockTexturePool AquaTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.AQUA_TILES);
+        BlockStateModelGenerator.BlockTexturePool SlateTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.SLATE_TILES);
+        BlockStateModelGenerator.BlockTexturePool NavyTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.NAVY_TILES);
+        BlockStateModelGenerator.BlockTexturePool IndigoTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Tiles.INDIGO_TILES);
 
-        MaroonTilesPool.slab(Tiles.MAROON_TILE_SLAB.get());
+        MaroonShinglesPool.stairs(Shingles.MAROON_SHINGLE_STAIRS);
+        MaroonShinglesPool.slab(Shingles.MAROON_SHINGLE_SLAB);
 
-        RoseShinglesPool.stairs(Shingles.ROSE_SHINGLE_STAIRS.get());
-        RoseShinglesPool.slab(Shingles.ROSE_SHINGLE_SLAB.get());
+        MaroonTerracottaBricksPool.stairs(Terracotta_Bricks.MAROON_TERRACOTTA_BRICK_STAIRS);
+        MaroonTerracottaBricksPool.slab(Terracotta_Bricks.MAROON_TERRACOTTA_BRICK_SLAB);
 
-        RoseTerracotaBricksPool.stairs(Terracota_Bricks.ROSE_TERRACOTTA_BRICK_STAIRS.get());
-        RoseTerracotaBricksPool.slab(Terracota_Bricks.ROSE_TERRACOTTA_BRICK_SLAB.get());
+        MaroonTilesPool.slab(Tiles.MAROON_TILE_SLAB);
 
-        RoseTilesPool.slab(Tiles.ROSE_TILE_SLAB.get());
+        RoseShinglesPool.stairs(Shingles.ROSE_SHINGLE_STAIRS);
+        RoseShinglesPool.slab(Shingles.ROSE_SHINGLE_SLAB);
 
-        CoralShinglesPool.stairs(Shingles.CORAL_SHINGLE_STAIRS.get());
-        CoralShinglesPool.slab(Shingles.CORAL_SHINGLE_SLAB.get());
+        RoseTerracottaBricksPool.stairs(Terracotta_Bricks.ROSE_TERRACOTTA_BRICK_STAIRS);
+        RoseTerracottaBricksPool.slab(Terracotta_Bricks.ROSE_TERRACOTTA_BRICK_SLAB);
 
-        CoralTerracotaBricksPool.stairs(Terracota_Bricks.CORAL_TERRACOTTA_BRICK_STAIRS.get());
-        CoralTerracotaBricksPool.slab(Terracota_Bricks.CORAL_TERRACOTTA_BRICK_SLAB.get());
+        RoseTilesPool.slab(Tiles.ROSE_TILE_SLAB);
 
-        CoralTilesPool.slab(Tiles.CORAL_TILE_SLAB.get());
+        CoralShinglesPool.stairs(Shingles.CORAL_SHINGLE_STAIRS);
+        CoralShinglesPool.slab(Shingles.CORAL_SHINGLE_SLAB);
 
-        GingerShinglesPool.stairs(Shingles.GINGER_SHINGLE_STAIRS.get());
-        GingerShinglesPool.slab(Shingles.GINGER_SHINGLE_SLAB.get());
+        CoralTerracottaBricksPool.stairs(Terracotta_Bricks.CORAL_TERRACOTTA_BRICK_STAIRS);
+        CoralTerracottaBricksPool.slab(Terracotta_Bricks.CORAL_TERRACOTTA_BRICK_SLAB);
 
-        GingerTerracotaBricksPool.stairs(Terracota_Bricks.GINGER_TERRACOTTA_BRICK_STAIRS.get());
-        GingerTerracotaBricksPool.slab(Terracota_Bricks.GINGER_TERRACOTTA_BRICK_SLAB.get());
+        CoralTilesPool.slab(Tiles.CORAL_TILE_SLAB);
 
-        GingerTilesPool.slab(Tiles.GINGER_TILE_SLAB.get());
+        GingerShinglesPool.stairs(Shingles.GINGER_SHINGLE_STAIRS);
+        GingerShinglesPool.slab(Shingles.GINGER_SHINGLE_SLAB);
 
-        TanShinglesPool.stairs(Shingles.TAN_SHINGLE_STAIRS.get());
-        TanShinglesPool.slab(Shingles.TAN_SHINGLE_SLAB.get());
+        GingerTerracottaBricksPool.stairs(Terracotta_Bricks.GINGER_TERRACOTTA_BRICK_STAIRS);
+        GingerTerracottaBricksPool.slab(Terracotta_Bricks.GINGER_TERRACOTTA_BRICK_SLAB);
 
-        TanTerracotaBricksPool.stairs(Terracota_Bricks.TAN_TERRACOTTA_BRICK_STAIRS.get());
-        TanTerracotaBricksPool.slab(Terracota_Bricks.TAN_TERRACOTTA_BRICK_SLAB.get());
+        GingerTilesPool.slab(Tiles.GINGER_TILE_SLAB);
 
-        TanTilesPool.slab(Tiles.TAN_TILE_SLAB.get());
+        TanShinglesPool.stairs(Shingles.TAN_SHINGLE_STAIRS);
+        TanShinglesPool.slab(Shingles.TAN_SHINGLE_SLAB);
 
-        BeigeShinglesPool.stairs(Shingles.BEIGE_SHINGLE_STAIRS.get());
-        BeigeShinglesPool.slab(Shingles.BEIGE_SHINGLE_SLAB.get());
+        TanTerracottaBricksPool.stairs(Terracotta_Bricks.TAN_TERRACOTTA_BRICK_STAIRS);
+        TanTerracottaBricksPool.slab(Terracotta_Bricks.TAN_TERRACOTTA_BRICK_SLAB);
 
-        BeigeTerracotaBricksPool.stairs(Terracota_Bricks.BEIGE_TERRACOTTA_BRICK_STAIRS.get());
-        BeigeTerracotaBricksPool.slab(Terracota_Bricks.BEIGE_TERRACOTTA_BRICK_SLAB.get());
+        TanTilesPool.slab(Tiles.TAN_TILE_SLAB);
 
-        BeigeTilesPool.slab(Tiles.BEIGE_TILE_SLAB.get());
+        BeigeShinglesPool.stairs(Shingles.BEIGE_SHINGLE_STAIRS);
+        BeigeShinglesPool.slab(Shingles.BEIGE_SHINGLE_SLAB);
 
-        AmberShinglesPool.stairs(Shingles.AMBER_SHINGLE_STAIRS.get());
-        AmberShinglesPool.slab(Shingles.AMBER_SHINGLE_SLAB.get());
+        BeigeTerracottaBricksPool.stairs(Terracotta_Bricks.BEIGE_TERRACOTTA_BRICK_STAIRS);
+        BeigeTerracottaBricksPool.slab(Terracotta_Bricks.BEIGE_TERRACOTTA_BRICK_SLAB);
 
-        AmberTerracotaBricksPool.stairs(Terracota_Bricks.AMBER_TERRACOTTA_BRICK_STAIRS.get());
-        AmberTerracotaBricksPool.slab(Terracota_Bricks.AMBER_TERRACOTTA_BRICK_SLAB.get());
+        BeigeTilesPool.slab(Tiles.BEIGE_TILE_SLAB);
 
-        AmberTilesPool.slab(Tiles.AMBER_TILE_SLAB.get());
+        AmberShinglesPool.stairs(Shingles.AMBER_SHINGLE_STAIRS);
+        AmberShinglesPool.slab(Shingles.AMBER_SHINGLE_SLAB);
 
-        OliveShinglesPool.stairs(Shingles.OLIVE_SHINGLE_STAIRS.get());
-        OliveShinglesPool.slab(Shingles.OLIVE_SHINGLE_SLAB.get());
+        AmberTerracottaBricksPool.stairs(Terracotta_Bricks.AMBER_TERRACOTTA_BRICK_STAIRS);
+        AmberTerracottaBricksPool.slab(Terracotta_Bricks.AMBER_TERRACOTTA_BRICK_SLAB);
 
-        OliveTerracotaBricksPool.stairs(Terracota_Bricks.OLIVE_TERRACOTTA_BRICK_STAIRS.get());
-        OliveTerracotaBricksPool.slab(Terracota_Bricks.OLIVE_TERRACOTTA_BRICK_SLAB.get());
+        AmberTilesPool.slab(Tiles.AMBER_TILE_SLAB);
 
-        OliveTilesPool.slab(Tiles.OLIVE_TILE_SLAB.get());
+        OliveShinglesPool.stairs(Shingles.OLIVE_SHINGLE_STAIRS);
+        OliveShinglesPool.slab(Shingles.OLIVE_SHINGLE_SLAB);
 
-        ForestShinglesPool.stairs(Shingles.FOREST_SHINGLE_STAIRS.get());
-        ForestShinglesPool.slab(Shingles.FOREST_SHINGLE_SLAB.get());
+        OliveTerracottaBricksPool.stairs(Terracotta_Bricks.OLIVE_TERRACOTTA_BRICK_STAIRS);
+        OliveTerracottaBricksPool.slab(Terracotta_Bricks.OLIVE_TERRACOTTA_BRICK_SLAB);
 
-        ForestTerracotaBricksPool.stairs(Terracota_Bricks.FOREST_TERRACOTTA_BRICK_STAIRS.get());
-        ForestTerracotaBricksPool.slab(Terracota_Bricks.FOREST_TERRACOTTA_BRICK_SLAB.get());
+        OliveTilesPool.slab(Tiles.OLIVE_TILE_SLAB);
 
-        ForestTilesPool.slab(Tiles.FOREST_TILE_SLAB.get());
+        ForestShinglesPool.stairs(Shingles.FOREST_SHINGLE_STAIRS);
+        ForestShinglesPool.slab(Shingles.FOREST_SHINGLE_SLAB);
 
-        VerdantShinglesPool.stairs(Shingles.VERDANT_SHINGLE_STAIRS.get());
-        VerdantShinglesPool.slab(Shingles.VERDANT_SHINGLE_SLAB.get());
+        ForestTerracottaBricksPool.stairs(Terracotta_Bricks.FOREST_TERRACOTTA_BRICK_STAIRS);
+        ForestTerracottaBricksPool.slab(Terracotta_Bricks.FOREST_TERRACOTTA_BRICK_SLAB);
 
-        VerdantTerracotaBricksPool.stairs(Terracota_Bricks.VERDANT_TERRACOTTA_BRICK_STAIRS.get());
-        VerdantTerracotaBricksPool.slab(Terracota_Bricks.VERDANT_TERRACOTTA_BRICK_SLAB.get());
+        ForestTilesPool.slab(Tiles.FOREST_TILE_SLAB);
 
-        VerdantTilesPool.slab(Tiles.VERDANT_TILE_SLAB.get());
+        VerdantShinglesPool.stairs(Shingles.VERDANT_SHINGLE_STAIRS);
+        VerdantShinglesPool.slab(Shingles.VERDANT_SHINGLE_SLAB);
 
-        TealShinglesPool.stairs(Shingles.TEAL_SHINGLE_STAIRS.get());
-        TealShinglesPool.slab(Shingles.TEAL_SHINGLE_SLAB.get());
+        VerdantTerracottaBricksPool.stairs(Terracotta_Bricks.VERDANT_TERRACOTTA_BRICK_STAIRS);
+        VerdantTerracottaBricksPool.slab(Terracotta_Bricks.VERDANT_TERRACOTTA_BRICK_SLAB);
 
-        TealTerracotaBricksPool.stairs(Terracota_Bricks.TEAL_TERRACOTTA_BRICK_STAIRS.get());
-        TealTerracotaBricksPool.slab(Terracota_Bricks.TEAL_TERRACOTTA_BRICK_SLAB.get());
+        VerdantTilesPool.slab(Tiles.VERDANT_TILE_SLAB);
 
-        TealTilesPool.slab(Tiles.TEAL_TILE_SLAB.get());
+        TealShinglesPool.stairs(Shingles.TEAL_SHINGLE_STAIRS);
+        TealShinglesPool.slab(Shingles.TEAL_SHINGLE_SLAB);
 
-        MintShinglesPool.stairs(Shingles.MINT_SHINGLE_STAIRS.get());
-        MintShinglesPool.slab(Shingles.MINT_SHINGLE_SLAB.get());
+        TealTerracottaBricksPool.stairs(Terracotta_Bricks.TEAL_TERRACOTTA_BRICK_STAIRS);
+        TealTerracottaBricksPool.slab(Terracotta_Bricks.TEAL_TERRACOTTA_BRICK_SLAB);
 
-        MintTerracotaBricksPool.stairs(Terracota_Bricks.MINT_TERRACOTTA_BRICK_STAIRS.get());
-        MintTerracotaBricksPool.slab(Terracota_Bricks.MINT_TERRACOTTA_BRICK_SLAB.get());
+        TealTilesPool.slab(Tiles.TEAL_TILE_SLAB);
 
-        MintTilesPool.slab(Tiles.MINT_TILE_SLAB.get());
+        MintShinglesPool.stairs(Shingles.MINT_SHINGLE_STAIRS);
+        MintShinglesPool.slab(Shingles.MINT_SHINGLE_SLAB);
 
-        AquaShinglesPool.stairs(Shingles.AQUA_SHINGLE_STAIRS.get());
-        AquaShinglesPool.slab(Shingles.AQUA_SHINGLE_SLAB.get());
+        MintTerracottaBricksPool.stairs(Terracotta_Bricks.MINT_TERRACOTTA_BRICK_STAIRS);
+        MintTerracottaBricksPool.slab(Terracotta_Bricks.MINT_TERRACOTTA_BRICK_SLAB);
 
-        AquaTerracotaBricksPool.stairs(Terracota_Bricks.AQUA_TERRACOTTA_BRICK_STAIRS.get());
-        AquaTerracotaBricksPool.slab(Terracota_Bricks.AQUA_TERRACOTTA_BRICK_SLAB.get());
+        MintTilesPool.slab(Tiles.MINT_TILE_SLAB);
 
-        AquaTilesPool.slab(Tiles.AQUA_TILE_SLAB.get());
+        AquaShinglesPool.stairs(Shingles.AQUA_SHINGLE_STAIRS);
+        AquaShinglesPool.slab(Shingles.AQUA_SHINGLE_SLAB);
 
-        SlateShinglesPool.stairs(Shingles.SLATE_SHINGLE_STAIRS.get());
-        SlateShinglesPool.slab(Shingles.SLATE_SHINGLE_SLAB.get());
+        AquaTerracottaBricksPool.stairs(Terracotta_Bricks.AQUA_TERRACOTTA_BRICK_STAIRS);
+        AquaTerracottaBricksPool.slab(Terracotta_Bricks.AQUA_TERRACOTTA_BRICK_SLAB);
 
-        SlateTerracotaBricksPool.stairs(Terracota_Bricks.SLATE_TERRACOTTA_BRICK_STAIRS.get());
-        SlateTerracotaBricksPool.slab(Terracota_Bricks.SLATE_TERRACOTTA_BRICK_SLAB.get());
+        AquaTilesPool.slab(Tiles.AQUA_TILE_SLAB);
 
-        SlateTilesPool.slab(Tiles.SLATE_TILE_SLAB.get());
+        SlateShinglesPool.stairs(Shingles.SLATE_SHINGLE_STAIRS);
+        SlateShinglesPool.slab(Shingles.SLATE_SHINGLE_SLAB);
 
-        NavyShinglesPool.stairs(Shingles.NAVY_SHINGLE_STAIRS.get());
-        NavyShinglesPool.slab(Shingles.NAVY_SHINGLE_SLAB.get());
+        SlateTerracottaBricksPool.stairs(Terracotta_Bricks.SLATE_TERRACOTTA_BRICK_STAIRS);
+        SlateTerracottaBricksPool.slab(Terracotta_Bricks.SLATE_TERRACOTTA_BRICK_SLAB);
 
-        NavyTerracotaBricksPool.stairs(Terracota_Bricks.NAVY_TERRACOTTA_BRICK_STAIRS.get());
-        NavyTerracotaBricksPool.slab(Terracota_Bricks.NAVY_TERRACOTTA_BRICK_SLAB.get());
+        SlateTilesPool.slab(Tiles.SLATE_TILE_SLAB);
 
-        NavyTilesPool.slab(Tiles.NAVY_TILE_SLAB.get());
+        NavyShinglesPool.stairs(Shingles.NAVY_SHINGLE_STAIRS);
+        NavyShinglesPool.slab(Shingles.NAVY_SHINGLE_SLAB);
 
-        IndigoShinglesPool.stairs(Shingles.INDIGO_SHINGLE_STAIRS.get());
-        IndigoShinglesPool.slab(Shingles.INDIGO_SHINGLE_SLAB.get());
+        NavyTerracottaBricksPool.stairs(Terracotta_Bricks.NAVY_TERRACOTTA_BRICK_STAIRS);
+        NavyTerracottaBricksPool.slab(Terracotta_Bricks.NAVY_TERRACOTTA_BRICK_SLAB);
 
-        IndigoTerracotaBricksPool.stairs(Terracota_Bricks.INDIGO_TERRACOTTA_BRICK_STAIRS.get());
-        IndigoTerracotaBricksPool.slab(Terracota_Bricks.INDIGO_TERRACOTTA_BRICK_SLAB.get());
+        NavyTilesPool.slab(Tiles.NAVY_TILE_SLAB);
 
-        IndigoTilesPool.slab(Tiles.INDIGO_TILE_SLAB.get());
+        IndigoShinglesPool.stairs(Shingles.INDIGO_SHINGLE_STAIRS);
+        IndigoShinglesPool.slab(Shingles.INDIGO_SHINGLE_SLAB);
 
+        IndigoTerracottaBricksPool.stairs(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICK_STAIRS);
+        IndigoTerracottaBricksPool.slab(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICK_SLAB);
+
+        IndigoTilesPool.slab(Tiles.INDIGO_TILE_SLAB);
     }
 
     @Override

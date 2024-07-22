@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "patchup:block/mint_shingles",
+    "side": "patchup:block/mint_shingles",
+    "top": "patchup:block/mint_shingles"
+  }
+}

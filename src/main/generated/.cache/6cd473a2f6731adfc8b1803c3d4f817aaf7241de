@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-12T12:09:28.7982972	Patch Up/Block Loot Tables
+// 1.20.1	2024-07-17T08:47:28.1671098	Patch Up/Block Loot Tables
 0894a1e293e4843cfd848f9db9ccd30540053ce7 data\another_furniture\loot_tables\blocks\beige_lamp.json
 5465c4a7c89e0f716c3728beb334df0f76180242 data\another_furniture\loot_tables\blocks\amber_tall_stool.json
 6496a0da9964fab5032a51dbaf4846d079ad1372 data\another_furniture\loot_tables\blocks\maroon_stool.json
@@ -77,5 +77,5 @@ cc0efc269ca3e0c9eb8a72c78adcd92bcea611e8 data\patchup\loot_tables\blocks\verdant
 506216577da28a440b1eecfc7d51369cc018569a data\another_furniture\loot_tables\blocks\teal_stool.json
 da40afb4b4ff7ca159aeae7711b7d0b115f0e74d data\another_furniture\loot_tables\blocks\slate_tall_stool.json
 17443d266a9fec403309165861c87261a9b4ffe8 data\another_furniture\loot_tables\blocks\olive_lamp.json
-1010b5d0b68e0abb1bd9fe8a4137fa62df3bd101 data\patchup\loot_tables\blocks\rose_terracotta_trim.json
 ca97a19d931986f058f11fa3c7ff35fc2127b9f7 data\another_furniture\loot_tables\blocks\tan_sofa.json
+1010b5d0b68e0abb1bd9fe8a4137fa62df3bd101 data\patchup\loot_tables\blocks\rose_terracotta_trim.json

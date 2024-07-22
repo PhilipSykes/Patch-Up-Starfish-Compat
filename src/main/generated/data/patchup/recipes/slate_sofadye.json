@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sofas",
+  "ingredients": [
+    {
+      "item": "dye_depot:slate_dye"
+    },
+    {
+      "tag": "another_furniture:sofas"
+    }
+  ],
+  "result": {
+    "item": "another_furniture:slate_sofa"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "patchup:block/verdant_stained_barred_glass"
+  }
+}

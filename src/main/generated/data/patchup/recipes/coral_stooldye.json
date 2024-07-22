@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "dye_depot:coral_dye"
+    },
+    {
+      "tag": "another_furniture:stools"
+    }
+  ],
+  "result": {
+    "item": "another_furniture:coral_stool"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/rose_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/rose_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/rose_tile_slab_top"
+    }
+  }
+}

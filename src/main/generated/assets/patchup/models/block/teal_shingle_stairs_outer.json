@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "patchup:block/teal_shingles",
+    "side": "patchup:block/teal_shingles",
+    "top": "patchup:block/teal_shingles"
+  }
+}

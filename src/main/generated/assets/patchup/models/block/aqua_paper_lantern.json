@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "patchup:block/aqua_paper_lantern"
+  }
+}

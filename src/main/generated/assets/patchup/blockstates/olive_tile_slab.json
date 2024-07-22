@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/olive_tile_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/olive_tiles"
+    },
+    "type=top": {
+      "model": "patchup:block/olive_tile_slab_top"
+    }
+  }
+}

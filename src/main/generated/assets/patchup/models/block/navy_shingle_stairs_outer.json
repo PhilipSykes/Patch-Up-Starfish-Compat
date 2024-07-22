@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "patchup:block/navy_shingles",
+    "side": "patchup:block/navy_shingles",
+    "top": "patchup:block/navy_shingles"
+  }
+}

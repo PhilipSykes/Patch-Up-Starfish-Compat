@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "patchup:block/amber_shingle_slab"
+    },
+    "type=double": {
+      "model": "patchup:block/amber_shingles"
+    },
+    "type=top": {
+      "model": "patchup:block/amber_shingle_slab_top"
+    }
+  }
+}

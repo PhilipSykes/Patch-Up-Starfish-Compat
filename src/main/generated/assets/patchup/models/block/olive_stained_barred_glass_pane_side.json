@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "patchup:block/olive_stained_barred_glass_pane_top",
+    "pane": "patchup:block/olive_stained_barred_glass"
+  }
+}
