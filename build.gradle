@@ -33,7 +33,7 @@ dependencies {
 	// Other dependencies.
 	modImplementation "maven.modrinth:dye-depot:1.0.3-fabric"
 	modImplementation "maven.modrinth:another-furniture:3.0.1-fabric"
-	//modImplementation "maven.modrinth:built:1.2.0-fabric"
+	modRuntimeOnly "maven.modrinth:built:1.2.0-fabric"
 	modImplementation "maven.modrinth:hearth-and-home:1.20.1-2.0.3"
 }
 
