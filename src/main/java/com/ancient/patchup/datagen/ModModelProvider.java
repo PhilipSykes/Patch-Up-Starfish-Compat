@@ -1,9 +1,7 @@
 package com.ancient.patchup.datagen;
 
-import com.ancient.patchup.block.Trims;
 import com.ancient.patchup.block.heart_and_home.*;
 import com.ancient.patchup.block.heart_and_home.Shingles;
-import com.ancient.patchup.block.heart_and_home.Terracota_Bricks;
 import com.ancient.patchup.block.heart_and_home.Tiles;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -20,23 +18,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         /* Built */
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.MAROON_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.ROSE_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.CORAL_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.GINGER_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.TAN_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.BEIGE_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.AMBER_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.OLIVE_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.FOREST_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.VERDANT_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.TEAL_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.MINT_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.AQUA_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.SLATE_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.NAVY_TERRACOTTA_TRIM);
-        blockStateModelGenerator.registerSimpleCubeAll(Trims.INDIGO_TERRACOTTA_TRIM);
-
         /* Paper Lantern */
         blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.MAROON_PAPER_LANTERN);
         blockStateModelGenerator.registerSimpleCubeAll(Paper_Lantern.ROSE_PAPER_LANTERN);

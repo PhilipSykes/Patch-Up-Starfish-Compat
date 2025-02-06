@@ -1,6 +1,5 @@
 package com.ancient.patchup.datagen;
 
-import com.ancient.patchup.block.*;
 import com.ancient.patchup.block.another_furniture.Lamp;
 import com.ancient.patchup.block.another_furniture.Sofa;
 import com.ancient.patchup.block.another_furniture.Stool;
@@ -15,24 +14,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        /* Built */
-        addDrop(Trims.MAROON_TERRACOTTA_TRIM);
-        addDrop(Trims.ROSE_TERRACOTTA_TRIM);
-        addDrop(Trims.CORAL_TERRACOTTA_TRIM);
-        addDrop(Trims.GINGER_TERRACOTTA_TRIM);
-        addDrop(Trims.TAN_TERRACOTTA_TRIM);
-        addDrop(Trims.BEIGE_TERRACOTTA_TRIM);
-        addDrop(Trims.AMBER_TERRACOTTA_TRIM);
-        addDrop(Trims.OLIVE_TERRACOTTA_TRIM);
-        addDrop(Trims.FOREST_TERRACOTTA_TRIM);
-        addDrop(Trims.VERDANT_TERRACOTTA_TRIM);
-        addDrop(Trims.TEAL_TERRACOTTA_TRIM);
-        addDrop(Trims.MINT_TERRACOTTA_TRIM);
-        addDrop(Trims.AQUA_TERRACOTTA_TRIM);
-        addDrop(Trims.SLATE_TERRACOTTA_TRIM);
-        addDrop(Trims.NAVY_TERRACOTTA_TRIM);
-        addDrop(Trims.INDIGO_TERRACOTTA_TRIM);
-
         /* Stool */
         addDrop(Stool.MAROON_STOOL.get());
         addDrop(Stool.ROSE_STOOL.get());

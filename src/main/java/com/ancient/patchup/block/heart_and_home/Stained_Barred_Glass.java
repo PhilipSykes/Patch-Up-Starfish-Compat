@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class Stained_Barred_Glass {
 
-    public static final Block MAROON_STAINED_BARRED_GLASS = registerBlock("marron_stained_barred_glass", new GlassBlock(AbstractBlock.Settings.copy(DDBlocks.MAROON_STAINED_GLASS)));
+    public static final Block MAROON_STAINED_BARRED_GLASS = registerBlock("maroon_stained_barred_glass", new GlassBlock(AbstractBlock.Settings.copy(DDBlocks.MAROON_STAINED_GLASS)));
     public static final Block ROSE_STAINED_BARRED_GLASS = registerBlock("rose_stained_barred_glass", new GlassBlock(AbstractBlock.Settings.copy(DDBlocks.ROSE_STAINED_GLASS)));
     public static final Block CORAL_STAINED_BARRED_GLASS = registerBlock("coral_stained_barred_glass", new GlassBlock(AbstractBlock.Settings.copy(DDBlocks.CORAL_STAINED_GLASS)));
     public static final Block GINGER_STAINED_BARRED_GLASS = registerBlock("ginger_stained_barred_glass", new GlassBlock(AbstractBlock.Settings.copy(DDBlocks.GINGER_STAINED_GLASS)));

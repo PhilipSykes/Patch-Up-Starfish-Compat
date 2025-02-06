@@ -1,6 +1,5 @@
 package com.ancient.patchup;
 
-import com.ancient.patchup.block.*;
 import com.ancient.patchup.block.another_furniture.*;
 import com.ancient.patchup.block.heart_and_home.*;
 import com.ancient.patchup.item.ModItemGroups;
@@ -39,11 +38,7 @@ public class PatchUp implements ModInitializer {
 			Terracotta_Bricks.init();
 			Tiles.init();
 			Stained_Barred_Glass.init();
+			Stained_Barred_Glass_Pane.init();
 		}
-
-		if (Compats.BUILT.isLoaded()) {
-			Trims.registerModBLocks();
-		}
-
 	}
 }

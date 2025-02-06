@@ -4,7 +4,6 @@ import net.fabricmc.loader.api.FabricLoader;
 
 public enum Compats {
     ANOTHER_FURNITURE,
-    BUILT,
     HEARTH_AND_HOME;
 
     private String id;

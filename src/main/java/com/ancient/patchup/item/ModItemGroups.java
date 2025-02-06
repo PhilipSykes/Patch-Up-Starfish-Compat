@@ -2,7 +2,6 @@ package com.ancient.patchup.item;
 
 import com.ancient.patchup.Compats;
 import com.ancient.patchup.PatchUp;
-import com.ancient.patchup.block.*;
 import com.ancient.patchup.block.another_furniture.*;
 import com.ancient.patchup.block.heart_and_home.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -19,32 +18,10 @@ public class ModItemGroups {
             new Identifier(PatchUp.MOD_ID, "patchup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.patchup_group"))
                     .icon(() -> new ItemStack(
-                            Compats.BUILT.isLoaded() ? Trims.NAVY_TERRACOTTA_TRIM :
                             Compats.ANOTHER_FURNITURE.isLoaded() ? Sofa.FOREST_SOFA.get() :
                             Compats.HEARTH_AND_HOME.isLoaded() ? Terracotta_Bricks.MINT_TERRACOTTA_BRICKS :
                             Items.STICK)).entries((displayContext, entries) -> {
 
-                        if (Compats.BUILT.isLoaded()) {
-
-                            /* Trims */
-                            entries.add(Trims.MAROON_TERRACOTTA_TRIM);
-                            entries.add(Trims.ROSE_TERRACOTTA_TRIM);
-                            entries.add(Trims.CORAL_TERRACOTTA_TRIM);
-                            entries.add(Trims.GINGER_TERRACOTTA_TRIM);
-                            entries.add(Trims.TAN_TERRACOTTA_TRIM);
-                            entries.add(Trims.BEIGE_TERRACOTTA_TRIM);
-                            entries.add(Trims.AMBER_TERRACOTTA_TRIM);
-                            entries.add(Trims.OLIVE_TERRACOTTA_TRIM);
-                            entries.add(Trims.FOREST_TERRACOTTA_TRIM);
-                            entries.add(Trims.VERDANT_TERRACOTTA_TRIM);
-                            entries.add(Trims.TEAL_TERRACOTTA_TRIM);
-                            entries.add(Trims.MINT_TERRACOTTA_TRIM);
-                            entries.add(Trims.AQUA_TERRACOTTA_TRIM);
-                            entries.add(Trims.SLATE_TERRACOTTA_TRIM);
-                            entries.add(Trims.NAVY_TERRACOTTA_TRIM);
-                            entries.add(Trims.INDIGO_TERRACOTTA_TRIM);
-
-                        }
                         if (Compats.ANOTHER_FURNITURE.isLoaded()) {
                             /* Stools */
                             entries.add(Stool.MAROON_STOOL.get());
@@ -283,39 +260,6 @@ public class ModItemGroups {
                             entries.add(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICKS);
                             entries.add(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICK_STAIRS);
                             entries.add(Terracotta_Bricks.INDIGO_TERRACOTTA_BRICK_SLAB);
-                            /* Tiles */
-                            entries.add(Tiles.MAROON_TILES);
-                            entries.add(Tiles.MAROON_TILE_SLAB);
-                            entries.add(Tiles.ROSE_TILES);
-                            entries.add(Tiles.ROSE_TILE_SLAB);
-                            entries.add(Tiles.CORAL_TILES);
-                            entries.add(Tiles.CORAL_TILE_SLAB);
-                            entries.add(Tiles.GINGER_TILES);
-                            entries.add(Tiles.GINGER_TILE_SLAB);
-                            entries.add(Tiles.TAN_TILES);
-                            entries.add(Tiles.TAN_TILE_SLAB);
-                            entries.add(Tiles.BEIGE_TILES);
-                            entries.add(Tiles.BEIGE_TILE_SLAB);
-                            entries.add(Tiles.AMBER_TILES);
-                            entries.add(Tiles.AMBER_TILE_SLAB);
-                            entries.add(Tiles.OLIVE_TILES);
-                            entries.add(Tiles.OLIVE_TILE_SLAB);
-                            entries.add(Tiles.FOREST_TILES);
-                            entries.add(Tiles.FOREST_TILE_SLAB);
-                            entries.add(Tiles.VERDANT_TILES);
-                            entries.add(Tiles.VERDANT_TILE_SLAB);
-                            entries.add(Tiles.TEAL_TILES);
-                            entries.add(Tiles.TEAL_TILE_SLAB);
-                            entries.add(Tiles.MINT_TILES);
-                            entries.add(Tiles.MINT_TILE_SLAB);
-                            entries.add(Tiles.AQUA_TILES);
-                            entries.add(Tiles.AQUA_TILE_SLAB);
-                            entries.add(Tiles.SLATE_TILES);
-                            entries.add(Tiles.SLATE_TILE_SLAB);
-                            entries.add(Tiles.NAVY_TILES);
-                            entries.add(Tiles.NAVY_TILE_SLAB);
-                            entries.add(Tiles.INDIGO_TILES);
-                            entries.add(Tiles.INDIGO_TILE_SLAB);
                         }
 
 

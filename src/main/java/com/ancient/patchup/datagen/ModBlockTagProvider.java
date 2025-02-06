@@ -1,6 +1,5 @@
 package com.ancient.patchup.datagen;
 
-import com.ancient.patchup.block.*;
 import com.ancient.patchup.block.another_furniture.*;
 import com.starfish_studios.another_furniture.registry.AFBlockTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -17,14 +16,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        this.getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+        this.getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE);
                 /* Built */
-                .add(Trims.MAROON_TERRACOTTA_TRIM, Trims.ROSE_TERRACOTTA_TRIM, Trims.CORAL_TERRACOTTA_TRIM,
-                        Trims.GINGER_TERRACOTTA_TRIM, Trims.TAN_TERRACOTTA_TRIM, Trims.BEIGE_TERRACOTTA_TRIM,
-                        Trims.AMBER_TERRACOTTA_TRIM, Trims.OLIVE_TERRACOTTA_TRIM, Trims.FOREST_TERRACOTTA_TRIM,
-                        Trims.VERDANT_TERRACOTTA_TRIM, Trims.TEAL_TERRACOTTA_TRIM, Trims.MINT_TERRACOTTA_TRIM,
-                        Trims.AQUA_TERRACOTTA_TRIM, Trims.SLATE_TERRACOTTA_TRIM, Trims.NAVY_TERRACOTTA_TRIM,
-                        Trims.INDIGO_TERRACOTTA_TRIM);
+
                 /* Another Furniture */
         this.getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(Stool.MAROON_STOOL.get(), Stool.ROSE_STOOL.get(), Stool.CORAL_STOOL.get(), Stool.GINGER_STOOL.get(), Stool.TAN_STOOL.get(), Stool.BEIGE_STOOL.get(), Stool.AMBER_STOOL.get(), Stool.OLIVE_STOOL.get(),
